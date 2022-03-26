@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+    <SoundDef>
+        <defName>HRK_Shot_Fort17_T</defName>
+        <context>MapOnly</context>
+        <eventNames />
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Folder">
+                        <clipFolderPath>Weapons/HRK_Shot_Fort17_T</clipFolderPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>34.2941</min>
+                    <max>40.2941</max>
+                </volumeRange>
+                <pitchRange>
+                    <min>1.191765</min>
+                    <max>1.231435</max>
+                </pitchRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+        <defName>HRK_Shot_Fort17_C</defName>
+        <context>MapOnly</context>
+        <eventNames />
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Folder">
+                        <clipFolderPath>Weapons/HRK_Shot_Fort17_C</clipFolderPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>34.2941</min>
+                    <max>40.2941</max>
+                </volumeRange>
+                <pitchRange>
+                    <min>1.191765</min>
+                    <max>1.231435</max>
+                </pitchRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+        <defName>HRK_Shot_UkrainianDSHK</defName>
+        <context>MapOnly</context>
+        <eventNames />
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Folder">
+                        <clipFolderPath>Weapons/HRK_Shot_UkrainianDSHK</clipFolderPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>34.2941</min>
+                    <max>40.2941</max>
+                </volumeRange>
+                <pitchRange>
+                    <min>1.191765</min>
+                    <max>1.231435</max>
+                </pitchRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+        <defName>HRK_Shot_SNIPEX_Alligator</defName>
+        <context>MapOnly</context>
+        <eventNames />
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Folder">
+                        <clipFolderPath>Weapons/HRK_Shot_SNIPEX_Alligator</clipFolderPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>34.2941</min>
+                    <max>40.2941</max>
+                </volumeRange>
+                <pitchRange>
+                    <min>1.191765</min>
+                    <max>1.231435</max>
+                </pitchRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+        <defName>HRK_Shot_VulkanM</defName>
+        <context>MapOnly</context>
+        <eventNames />
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Folder">
+                        <clipFolderPath>Weapons/HRK_Shot_VulkanM</clipFolderPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>34.2941</min>
+                    <max>40.2941</max>
+                </volumeRange>
+                <pitchRange>
+                    <min>1.191765</min>
+                    <max>1.231435</max>
+                </pitchRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+        <defName>HRK_Shot_VulkanM_C</defName>
+        <context>MapOnly</context>
+        <eventNames />
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Folder">
+                        <clipFolderPath>Weapons/HRK_Shot_VulkanM_C</clipFolderPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>34.2941</min>
+                    <max>40.2941</max>
+                </volumeRange>
+                <pitchRange>
+                    <min>1.191765</min>
+                    <max>1.231435</max>
+                </pitchRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+        <defName>HRK_Shot_Vulkan</defName>
+        <context>MapOnly</context>
+        <eventNames />
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Folder">
+                        <clipFolderPath>Weapons/HRK_Shot_Vulkan</clipFolderPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>34.2941</min>
+                    <max>40.2941</max>
+                </volumeRange>
+                <pitchRange>
+                    <min>1.191765</min>
+                    <max>1.231435</max>
+                </pitchRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+        <defName>HRK_Shot_Vulkan_C</defName>
+        <context>MapOnly</context>
+        <eventNames />
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Folder">
+                        <clipFolderPath>Weapons/HRK_Shot_Vulkan_C</clipFolderPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>34.2941</min>
+                    <max>40.2941</max>
+                </volumeRange>
+                <pitchRange>
+                    <min>1.191765</min>
+                    <max>1.231435</max>
+                </pitchRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+        <defName>HRK_Shot_UAG40_AGL</defName>
+        <context>MapOnly</context>
+        <eventNames />
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Folder">
+                        <clipFolderPath>Weapons/HRK_Shot_UAG40_AGL</clipFolderPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>34.2941</min>
+                    <max>40.2941</max>
+                </volumeRange>
+                <pitchRange>
+                    <min>1.191765</min>
+                    <max>1.231435</max>
+                </pitchRange>
+                <sustainLoop>False</sustainLoop>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+</Defs>
