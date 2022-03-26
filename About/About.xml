@@ -28,6 +28,7 @@
 		<li>Ludeon.RimWorld.Royalty</li>
 		<li>Ludeon.RimWorld.Ideology</li>
 		<li>CETeam.CombatExtended</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 		<li>VanillaExpanded.VWE</li>
 		<li>Harkon.GunNut.CORE</li>
 	</loadAfter>
