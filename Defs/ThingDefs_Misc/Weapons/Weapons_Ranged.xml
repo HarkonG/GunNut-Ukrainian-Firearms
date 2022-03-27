@@ -423,7 +423,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>HRK_Bullet_145x114mmSoviet</defaultProjectile>
         <warmupTime>3.3</warmupTime>
-        <range>40</range>
+        <range>45</range>
         <soundCast>HRK_Shot_SNIPEX_Alligator</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
