@@ -3,7 +3,7 @@
 <Defs>
 
     <SoundDef>
-        <defName>HRK_Shot_Fort17_T</defName>
+        <defName>HRK_Shot_Fort17_Pistol</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -11,7 +11,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/HRK_Shot_Fort17_T</clipFolderPath>
+                        <clipFolderPath>Weapons/HRK_Shot_Fort17_Pistol</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -25,10 +25,10 @@
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
-    </SoundDef>
+    </SoundDef>   
 
     <SoundDef>
-        <defName>HRK_Shot_Fort17_C</defName>
+        <defName>HRK_Shot_UkrainianDShK</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -36,32 +36,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/HRK_Shot_Fort17_C</clipFolderPath>
-                    </li>
-                </grains>
-                <volumeRange>
-                    <min>34.2941</min>
-                    <max>40.2941</max>
-                </volumeRange>
-                <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
-                </pitchRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
-
-    <SoundDef>
-        <defName>HRK_Shot_UkrainianDSHK</defName>
-        <context>MapOnly</context>
-        <eventNames />
-        <maxSimultaneous>1</maxSimultaneous>
-        <subSounds>
-            <li>
-                <grains>
-                    <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/HRK_Shot_UkrainianDSHK</clipFolderPath>
+                        <clipFolderPath>Weapons/HRK_Shot_UkrainianDShK</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -103,7 +78,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>HRK_Shot_VulkanM</defName>
+        <defName>HRK_Shot_MVulkan</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -111,7 +86,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/HRK_Shot_VulkanM</clipFolderPath>
+                        <clipFolderPath>Weapons/HRK_Shot_MVulkan</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -128,7 +103,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>HRK_Shot_VulkanM_C</defName>
+        <defName>HRK_Shot_SD_MVulkan</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -136,7 +111,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/HRK_Shot_VulkanM_C</clipFolderPath>
+                        <clipFolderPath>Weapons/HRK_Shot_SD_MVulkan</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -178,7 +153,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>HRK_Shot_Vulkan_C</defName>
+        <defName>HRK_Shot_SD_Vulkan</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -186,7 +161,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/HRK_Shot_Vulkan_C</clipFolderPath>
+                        <clipFolderPath>Weapons/HRK_Shot_SD_Vulkan</clipFolderPath>
                     </li>
                 </grains>
                 <volumeRange>
