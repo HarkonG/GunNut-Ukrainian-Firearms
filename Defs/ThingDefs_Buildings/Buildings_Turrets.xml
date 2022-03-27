@@ -55,7 +55,7 @@
                 <initialFuelPercent>1</initialFuelPercent>
                 <autoRefuelPercent>0.75</autoRefuelPercent>
                 <showFuelGizmo>true</showFuelGizmo>
-                <minimumFueledThreshold>1</minimumFueledThreshold>                
+                <minimumFueledThreshold>1</minimumFueledThreshold>
                 <factorByDifficulty>true</factorByDifficulty>
                 <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
                 <outOfFuelMessage>Cannot shoot: Needs new barrels</outOfFuelMessage>
@@ -69,12 +69,13 @@
         <fillPercent>0.4</fillPercent>
         <hasTooltip>true</hasTooltip>
         <costList>
-            <Steel>80</Steel>
-            <ComponentIndustrial>5</ComponentIndustrial>
+            <Steel>125</Steel>
+            <Chemfuel>70</Chemfuel>
+            <ComponentIndustrial>4</ComponentIndustrial>
         </costList>
         <designationCategory>Security</designationCategory>
         <building>
-            <ai_combatDangerous>true</ai_combatDangerous>
+            <ai_combatDangerous>false</ai_combatDangerous>
             <turretGunDef>HRK_TurretGun_UAG40_AGL</turretGunDef>
             <turretBurstCooldownTime>6.6</turretBurstCooldownTime>
         </building>
@@ -128,6 +129,6 @@
                 <consumeFuelPerShot>1</consumeFuelPerShot>
             </li>
         </verbs>
-    </ThingDef>    
+    </ThingDef>
 
 </Defs>
