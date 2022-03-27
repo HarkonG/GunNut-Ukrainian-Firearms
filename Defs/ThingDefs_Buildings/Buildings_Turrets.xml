@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <Defs>
-    <ThingDef Name="VFES_Turret_MilitaryTurret" ParentName="BuildingBase">
-        <defName>VFES_Turret_MilitaryTurret</defName>
-        <label>military turret</label>
-        <description>A military-grade double barreled automatic turret. Requires steel to refurbish its barrels after heavy use. May explode when damaged. Its dumb AI brain can't be directly controlled, so beware of friendly fire.</description>
+    <ThingDef ParentName="BuildingBase">
+        <defName>HRK_Turret_UAG40_AGL</defName>
+        <label>UAG-40</label>
+        <description>The UAG-40 is an ukrainian automatic grenade launcher. It is manufactured by the armament company Leninska Kuznya.</description>
         <thingClass>Building_TurretGun</thingClass>
         <drawerType>MapMeshAndRealTime</drawerType>
         <graphicData>
@@ -51,12 +51,11 @@
                         <li>Steel</li>
                     </thingDefs>
                 </fuelFilter>
-                <fuelCapacity>240</fuelCapacity>
+                <fuelCapacity>25</fuelCapacity>
                 <initialFuelPercent>1</initialFuelPercent>
                 <autoRefuelPercent>0.75</autoRefuelPercent>
                 <showFuelGizmo>true</showFuelGizmo>
-                <minimumFueledThreshold>1</minimumFueledThreshold>
-                <fuelMultiplier>2</fuelMultiplier>
+                <minimumFueledThreshold>1</minimumFueledThreshold>                
                 <factorByDifficulty>true</factorByDifficulty>
                 <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
                 <outOfFuelMessage>Cannot shoot: Needs new barrels</outOfFuelMessage>
@@ -76,7 +75,7 @@
         <designationCategory>Security</designationCategory>
         <building>
             <ai_combatDangerous>true</ai_combatDangerous>
-            <turretGunDef>VFES_Gun_MilitaryTurret</turretGunDef>
+            <turretGunDef>HRK_TurretGun_UAG40_AGL</turretGunDef>
             <turretBurstCooldownTime>6.6</turretBurstCooldownTime>
         </building>
         <placeWorkers>
@@ -89,10 +88,10 @@
         </researchPrerequisites>
     </ThingDef>
 
-    <ThingDef Name="VFES_Gun_MilitaryTurret" ParentName="BaseWeaponTurret">
-        <defName>VFES_Gun_MilitaryTurret</defName>
-        <label>military turret doublegun</label>
-        <description>Two simple automatic guns made to be mounted on a turret.</description>
+    <ThingDef ParentName="BaseWeaponTurret">
+        <defName>HRK_TurretGun_UAG40_AGL</defName>
+        <label>UAG-40</label>
+        <description>The UAG-40 is an ukrainian automatic grenade launcher. It is manufactured by the armament company Leninska Kuznya.</description>
         <graphicData>
             <texPath>Things/Turrets/HRK_TurretGun_UAG40_AGL</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -112,7 +111,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>HRK_Bullet_AGL</defaultProjectile>
+                <defaultProjectile>HRK_Bullet_40x53mmGrenade</defaultProjectile>
                 <warmupTime>1.8</warmupTime>
                 <range>30.9</range>
                 <forcedMissRadius>2.9</forcedMissRadius>
@@ -129,25 +128,6 @@
                 <consumeFuelPerShot>1</consumeFuelPerShot>
             </li>
         </verbs>
-    </ThingDef>
-
-    <ThingDef ParentName="BaseBullet">
-        <defName>HRK_Bullet_AGL</defName>
-        <label>AGL grenade</label>
-        <graphicData>
-            <texPath>Things/Projectile/Bullet_Big</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <thingClass>Projectile_Explosive</thingClass>
-        <projectile>
-            <speed>40</speed>
-            <damageDef>Bomb</damageDef>
-            <explosionRadius>1.9</explosionRadius>
-            <preExplosionSpawnThingDef>Filth_RubbleRock</preExplosionSpawnThingDef>
-            <preExplosionSpawnChance>0.3</preExplosionSpawnChance>
-            <ai_IsIncendiary>false</ai_IsIncendiary>
-            <explosionDelay>1</explosionDelay>
-        </projectile>
-    </ThingDef>
+    </ThingDef>    
 
 </Defs>
