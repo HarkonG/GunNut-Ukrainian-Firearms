@@ -333,7 +333,7 @@
                         <hasStandardCommand>true</hasStandardCommand>
                         <defaultProjectile>Bullet_145x114mm_FMJ</defaultProjectile>
                         <warmupTime>3.35</warmupTime>
-                        <range>112</range>
+                        <range>92</range>
                         <soundCast>HRK_Shot_SNIPEX_Alligator</soundCast>
                         <soundCastTail>GunTail_Heavy</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
