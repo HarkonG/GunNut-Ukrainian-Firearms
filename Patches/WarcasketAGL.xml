@@ -16,7 +16,7 @@
                             <label>Warcasket UAG-40</label>
                             <description>The UAG-40 is an ukrainian automatic grenade launcher. It is manufactured by the armament company Leninska Kuznya.</description>
                             <graphicData>
-                                <texPath>Things/Weapons/HRK_UAG40_Warcasket</texPath>
+                                <texPath>Things/WarcasketWeapons/HRK_UAG40_Warcasket</texPath>
                             </graphicData>
                             <soundInteract>Interact_Rifle</soundInteract>
                             <statBases>
@@ -68,7 +68,7 @@
                                 <li Class="VFECore.FloorGraphicExtension">
                                     <graphicData>
                                         <graphicClass>Graphic_Single</graphicClass>
-                                        <texPath>Things/Weapons/HRK_UAG40_Warcasket_OnFloor</texPath>
+                                        <texPath>Things/WarcasketWeapons/HRK_UAG40_Warcasket_OnFloor</texPath>
                                         <onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
                                         <drawSize>1</drawSize>
                                     </graphicData>
@@ -86,7 +86,7 @@
                             <label>Warcasket UAG-40</label>
                             <description>The UAG-40 is an ukrainian automatic grenade launcher. It is manufactured by the armament company Leninska Kuznya.</description>
                             <graphicData>
-                                <texPath>Things/Weapons/HRK_UAG40_Warcasket_OnFloor</texPath>
+                                <texPath>Things/WarcasketWeapons/HRK_UAG40_Warcasket_OnFloor</texPath>
                             </graphicData>
                             <costList>
                                 <Steel>135</Steel>
