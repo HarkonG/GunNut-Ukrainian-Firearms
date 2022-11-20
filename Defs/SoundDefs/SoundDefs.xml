@@ -10,8 +10,8 @@
         <subSounds>
             <li>
                 <grains>
-                    <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/HRK_Shot_Fort17_Pistol</clipFolderPath>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/HRK_Shot_Fort17_Pistol</clipPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -25,7 +25,7 @@
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
-    </SoundDef>   
+    </SoundDef>
 
     <SoundDef>
         <defName>HRK_Shot_UkrainianDShK</defName>
@@ -35,8 +35,8 @@
         <subSounds>
             <li>
                 <grains>
-                    <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/HRK_Shot_UkrainianDShK</clipFolderPath>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/HRK_Shot_UkrainianDShK</clipPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -60,8 +60,8 @@
         <subSounds>
             <li>
                 <grains>
-                    <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/HRK_Shot_SNIPEX_Alligator</clipFolderPath>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/HRK_Shot_SNIPEX_Alligator</clipPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -85,8 +85,8 @@
         <subSounds>
             <li>
                 <grains>
-                    <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/HRK_Shot_MVulkan</clipFolderPath>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/HRK_Shot_MVulkan</clipPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -110,8 +110,8 @@
         <subSounds>
             <li>
                 <grains>
-                    <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/HRK_Shot_SD_MVulkan</clipFolderPath>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/HRK_Shot_SD_MVulkan</clipPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -135,8 +135,8 @@
         <subSounds>
             <li>
                 <grains>
-                    <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/HRK_Shot_Vulkan</clipFolderPath>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/HRK_Shot_Vulkan</clipPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -160,8 +160,8 @@
         <subSounds>
             <li>
                 <grains>
-                    <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/HRK_Shot_SD_Vulkan</clipFolderPath>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/HRK_Shot_SD_Vulkan</clipPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -185,8 +185,8 @@
         <subSounds>
             <li>
                 <grains>
-                    <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/HRK_Shot_UAG40_AGL</clipFolderPath>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/HRK_Shot_UAG40_AGL</clipPath>
                     </li>
                 </grains>
                 <volumeRange>
