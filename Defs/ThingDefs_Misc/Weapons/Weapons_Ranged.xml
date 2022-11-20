@@ -385,11 +385,6 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.25</drawSize>
     </graphicData>
-    <comps>
-      <li>
-        <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
-      </li>
-    </comps>
     <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
       <WorkToMake>60000</WorkToMake>
@@ -457,13 +452,13 @@
     </weaponClasses>
   </ThingDef>
 
-  <!--HRK_UkrainianDShK-->
+  <!--HRK_UkrainianDSHK-->
   <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>HRK_UkrainianDShK</defName>
+    <defName>HRK_UkrainianDSHK</defName>
     <label>hand-held DShK</label>
     <description>The DShK is a Soviet heavy machine gun with a V-shaped butterfly trigger, firing the 12.7×108mm cartridge. This DShk has been modified into a shoulder-fired infantry weapon.</description>
     <graphicData>
-      <texPath>Things/Weapons/HRK_UkrainianDShK</texPath>
+      <texPath>Things/Weapons/HRK_UkrainianDSHK</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.25</drawSize>
     </graphicData>
@@ -475,11 +470,6 @@
         <Crafting>6</Crafting>
       </skillRequirements>
     </recipeMaker>
-    <comps>
-      <li>
-        <compClass>CompOversizedWeapon.CompOversizedWeapon</compClass>
-      </li>
-    </comps>
     <statBases>
       <AccuracyTouch>0.27</AccuracyTouch>
       <AccuracyShort>0.67</AccuracyShort>
@@ -509,7 +499,7 @@
         <range>32</range>
         <ticksBetweenBurstShots>15</ticksBetweenBurstShots>
         <burstShotCount>7</burstShotCount>
-        <soundCast>HRK_Shot_UkrainianDShK</soundCast>
+        <soundCast>HRK_Shot_UkrainianDSHK</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>12</muzzleFlashScale>
       </li>
@@ -548,6 +538,6 @@
     <weaponClasses>
       <li>RangedHeavy</li>
     </weaponClasses>
-  </ThingDef>  
+  </ThingDef>
 
 </Defs>
