@@ -17,12 +17,6 @@
 			<displayName>[HRK] Gun Nut - CORE</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2614317714</steamWorkshopUrl>
 		</li>
-		<li>
-			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
-			<displayName>Vanilla Expanded Framework</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
-			<downloadUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</downloadUrl>
-		</li>
 	</modDependencies>
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>

@@ -67,11 +67,6 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
-    <modExtensions>
-      <li Class="VFECore.ThingDefExtension">
-        <usableWithShields>true</usableWithShields>
-      </li>
-    </modExtensions>
     <weaponTags>
       <li>SimpleGun</li>
     </weaponTags>
@@ -491,7 +486,7 @@
     </costList>
     <verbs>
       <li>
-        <verbClass>HeavyWeapons.Verb_Shoot</verbClass>
+        <verbClass>Verb_Shoot</verbClass>
         <defaultProjectile>HRK_Bullet_127x108mmSoviet</defaultProjectile>
         <hasStandardCommand>true</hasStandardCommand>
         <warmupTime>1.2</warmupTime>
@@ -504,6 +499,21 @@
         <muzzleFlashScale>12</muzzleFlashScale>
       </li>
     </verbs>
+    <!--<verbs>
+      <li>
+        <verbClass>HeavyWeapons.Verb_Shoot</verbClass>
+        <defaultProjectile>HRK_Bullet_127x108mmSoviet</defaultProjectile>
+        <hasStandardCommand>true</hasStandardCommand>
+        <warmupTime>1.2</warmupTime>
+        <minRange>4.2</minRange>
+        <range>32</range>
+        <ticksBetweenBurstShots>15</ticksBetweenBurstShots>
+        <burstShotCount>7</burstShotCount>
+        <soundCast>HRK_Shot_UkrainianDSHK</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>-->
     <tools>
       <li>
         <label>grip</label>
@@ -523,7 +533,7 @@
         <cooldownTime>4</cooldownTime>
       </li>
     </tools>
-    <modExtensions>
+    <!--<modExtensions>
       <li Class="HeavyWeapons.HeavyWeapon">
         <weaponHitPointsDeductionOnShot>1</weaponHitPointsDeductionOnShot>
         <isHeavy>true</isHeavy>
@@ -531,7 +541,7 @@
           <li>VWE_Apparel_Exoframe</li>
         </supportedArmors>
       </li>
-    </modExtensions>
+    </modExtensions>-->
     <weaponTags Inherit='False'>
       <li>HeavyGun</li>
     </weaponTags>
