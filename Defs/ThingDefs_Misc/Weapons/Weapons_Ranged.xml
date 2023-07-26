@@ -79,7 +79,7 @@
   <!--HRK_Vulkan-->
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_Vulkan</defName>
-    <label>HRK_Vulkan</label>
+    <label>Vulkan</label>
     <description>The Malyuk is essentially a bullpup AK with a polymer encasing, which makes it an evolution of Ukraine's previous Vepr assault rifle design. At the heart of the Malyuk is an AKM or AK-74 receiver, with their original barrel, bolt group, and trigger group.</description>
     <graphicData>
       <texPath>Things/Weapons/HRK_Vulkan</texPath>
