@@ -2,13 +2,13 @@
 <Defs>
 
     <XmlExtensions.SettingsMenuDef>
-        <defName>HRK_settings_GunNutKRISSVector</defName>
-        <modId>Harkon.GunNut.KRISSVector</modId>
-        <label>Gun Nut - KRISS Vector</label>
+        <defName>HRK_settings_GunNutUkrainianFirearms</defName>
+        <modId>Harkon.GunNut.UkrainianFirearms</modId>
+        <label>Gun Nut - Ukrainian Firearms</label>
         <settings>
 
             <li Class="XmlExtensions.Setting.Text">
-                <text>Gun Nut - KRISS Vector</text>
+                <text>Gun Nut - Ukrainian Firearms</text>
                 <font>Medium</font>
                 <anchor>Middle</anchor>
             </li>
@@ -45,19 +45,19 @@
                     </li>
 
                     <li Class="XmlExtensions.Setting.RadioButtons">
-                        <key>KRISSVectorGenI_Camo</key>
-                        <defaultValue>HRK_KRISSVectorGenI_Tan</defaultValue>
+                        <key>Vulkan_Camo</key>
+                        <defaultValue>HRK_Vulkan_Tan</defaultValue>
                         <buttons>
                             <li>
-                                <value>HRK_KRISSVectorGenI_Black</value>
+                                <value>HRK_Vulkan_Black</value>
                                 <label>Black/Base</label>
                             </li>
                             <li>
-                                <value>HRK_KRISSVectorGenI_Tan</value>
+                                <value>HRK_Vulkan_Tan</value>
                                 <label>Tan/Desert</label>
                             </li>
                             <li>
-                                <value>HRK_KRISSVectorGenI_White</value>
+                                <value>HRK_Vulkan_White</value>
                                 <label>Snow/White</label>
                             </li>
                         </buttons>
@@ -76,19 +76,19 @@
                     </li>
 
                     <li Class="XmlExtensions.Setting.RadioButtons">
-                        <key>KRISSVectorGenII_Camo</key>
-                        <defaultValue>HRK_KRISSVectorGenII_White</defaultValue>
+                        <key>Vulkan_C_Camo</key>
+                        <defaultValue>HRK_Vulkan_C_White</defaultValue>
                         <buttons>
                             <li>
-                                <value>HRK_KRISSVectorGenII_Black</value>
+                                <value>HRK_Vulkan_C_Black</value>
                                 <label>Black/Base</label>
                             </li>
                             <li>
-                                <value>HRK_KRISSVectorGenII_Tan</value>
+                                <value>HRK_Vulkan_C_Tan</value>
                                 <label>Tan/Desert</label>
                             </li>
                             <li>
-                                <value>HRK_KRISSVectorGenII_White</value>
+                                <value>HRK_Vulkan_C_White</value>
                                 <label>Snow/White</label>
                             </li>
                         </buttons>
@@ -108,19 +108,19 @@
                     </li>
 
                     <li Class="XmlExtensions.Setting.RadioButtons">
-                        <key>KRISSVectorACP_Camo</key>
-                        <defaultValue>HRK_KRISSVectorACP_Black</defaultValue>
+                        <key>VulcanM_Camo</key>
+                        <defaultValue>HRK_VulcanM_Black</defaultValue>
                         <buttons>
                             <li>
-                                <value>HRK_KRISSVectorACP_Black</value>
+                                <value>HRK_VulcanM_Black</value>
                                 <label>Black/Base</label>
                             </li>
                             <li>
-                                <value>HRK_KRISSVectorACP_Tan</value>
+                                <value>HRK_VulcanM_Tan</value>
                                 <label>Tan/Desert</label>
                             </li>
                             <li>
-                                <value>HRK_KRISSVectorACP_White</value>
+                                <value>HRK_VulcanM_White</value>
                                 <label>Snow/White</label>
                             </li>
                         </buttons>

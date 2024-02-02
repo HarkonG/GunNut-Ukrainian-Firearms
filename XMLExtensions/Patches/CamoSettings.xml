@@ -2,60 +2,100 @@
 <Patch>
 
     <Operation Class="XmlExtensions.UseSetting">
-        <modId>Harkon.GunNut.KRISSVector</modId>
-        <key>KRISSVectorGenI_Camo</key>
-        <defaultValue>HRK_KRISSVectorGenI_Black</defaultValue>
+        <modId>Harkon.GunNut.UkrainianFirearms</modId>
+        <key>Vulkan_Camo</key>
+        <defaultValue>HRK_Vulkan_Black</defaultValue>
         <apply>
             <Operation Class="PatchOperationReplace">
-                <xpath>/Defs/ThingDef[defName="HRK_KRISSVectorGenI"]/graphicData/texPath</xpath>
+                <xpath>/Defs/ThingDef[defName="HRK_Vulkan"]/graphicData/texPath</xpath>
                 <value>
-                    <texPath>Things/Item/Equipment/WeaponRanged/HRK_KRISSVectorGenI/{KRISSVectorGenI_Camo}</texPath>
+                    <texPath>Things/Item/Equipment/WeaponRanged/HRK_Vulkan/{Vulkan_Camo}</texPath>
                 </value>
             </Operation>
             <Operation Class="PatchOperationReplace">
-                <xpath>/Defs/ThingDef[defName="HRK_KRISSVectorGenI"]/uiIconPath</xpath>
+                <xpath>/Defs/ThingDef[defName="HRK_Vulkan"]/uiIconPath</xpath>
                 <value>
-                    <uiIconPath>UI/Weapons/HRK_KRISSVectorGenI/{KRISSVectorGenI_Camo}</uiIconPath>
+                    <uiIconPath>UI/Weapons/HRK_Vulkan/{Vulkan_Camo}</uiIconPath>
                 </value>
             </Operation>
         </apply>
     </Operation>
 
     <Operation Class="XmlExtensions.UseSetting">
-        <modId>Harkon.GunNut.KRISSVector</modId>
-        <key>KRISSVectorGenII_Camo</key>
-        <defaultValue>HRK_KRISSVectorGenII_Black</defaultValue>
+        <modId>Harkon.GunNut.UkrainianFirearms</modId>
+        <key>Vulkan_C_Camo</key>
+        <defaultValue>HRK_Vulkan_C_Black</defaultValue>
         <apply>
             <Operation Class="PatchOperationReplace">
-                <xpath>/Defs/ThingDef[defName="HRK_KRISSVectorGenII"]/graphicData/texPath</xpath>
+                <xpath>/Defs/ThingDef[defName="HRK_Vulkan_C"]/graphicData/texPath</xpath>
                 <value>
-                    <texPath>Things/Item/Equipment/WeaponRanged/HRK_KRISSVectorGenII/{KRISSVectorGenII_Camo}</texPath>
+                    <texPath>Things/Item/Equipment/WeaponRanged/HRK_Vulkan_C/{Vulkan_C_Camo}</texPath>
                 </value>
             </Operation>
             <Operation Class="PatchOperationReplace">
-                <xpath>/Defs/ThingDef[defName="HRK_KRISSVectorGenII"]/uiIconPath</xpath>
+                <xpath>/Defs/ThingDef[defName="HRK_Vulkan_C"]/uiIconPath</xpath>
                 <value>
-                    <uiIconPath>UI/Weapons/HRK_KRISSVectorGenII/{KRISSVectorGenII_Camo}</uiIconPath>
+                    <uiIconPath>UI/Weapons/HRK_Vulkan_C/{Vulkan_C_Camo}</uiIconPath>
                 </value>
             </Operation>
         </apply>
     </Operation>
 
     <Operation Class="XmlExtensions.UseSetting">
-        <modId>Harkon.GunNut.KRISSVector</modId>
-        <key>KRISSVectorACP_Camo</key>
-        <defaultValue>HRK_KRISSVectorACP_Black</defaultValue>
+        <modId>Harkon.GunNut.UkrainianFirearms</modId>
+        <key>SNIPEXAlligator_Camo</key>
+        <defaultValue>HRK_SNIPEXAlligator_Black</defaultValue>
         <apply>
             <Operation Class="PatchOperationReplace">
-                <xpath>/Defs/ThingDef[defName="HRK_KRISSVectorACP"]/graphicData/texPath</xpath>
+                <xpath>/Defs/ThingDef[defName="HRK_SNIPEXAlligator"]/graphicData/texPath</xpath>
                 <value>
-                    <texPath>Things/Item/Equipment/WeaponRanged/HRK_KRISSVectorACP/{KRISSVectorACP_Camo}</texPath>
+                    <texPath>Things/Item/Equipment/WeaponRanged/HRK_SNIPEXAlligator/{SNIPEXAlligator_Camo}</texPath>
                 </value>
             </Operation>
             <Operation Class="PatchOperationReplace">
-                <xpath>/Defs/ThingDef[defName="HRK_KRISSVectorACP"]/uiIconPath</xpath>
+                <xpath>/Defs/ThingDef[defName="HRK_SNIPEXAlligator"]/uiIconPath</xpath>
                 <value>
-                    <uiIconPath>UI/Weapons/HRK_KRISSVectorACP/{KRISSVectorACP_Camo}</uiIconPath>
+                    <uiIconPath>UI/Weapons/HRK_SNIPEXAlligator/{SNIPEXAlligator_Camo}</uiIconPath>
+                </value>
+            </Operation>
+        </apply>
+    </Operation>
+
+    <Operation Class="XmlExtensions.UseSetting">
+        <modId>Harkon.GunNut.UkrainianFirearms</modId>
+        <key>VulkanM_Camo</key>
+        <defaultValue>HRK_VulkanM_Black</defaultValue>
+        <apply>
+            <Operation Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="HRK_Vulkan"]/graphicData/texPath</xpath>
+                <value>
+                    <texPath>Things/Item/Equipment/WeaponRanged/HRK_Vulkan/{VulkanM_Camo}</texPath>
+                </value>
+            </Operation>
+            <Operation Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="HRK_Vulkan"]/uiIconPath</xpath>
+                <value>
+                    <uiIconPath>UI/Weapons/HRK_Vulkan/{VulkanM_Camo}</uiIconPath>
+                </value>
+            </Operation>
+        </apply>
+    </Operation>
+
+    <Operation Class="XmlExtensions.UseSetting">
+        <modId>Harkon.GunNut.UkrainianFirearms</modId>
+        <key>VulkanM_C_Camo</key>
+        <defaultValue>HRK_VulkanM_C_Black</defaultValue>
+        <apply>
+            <Operation Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="HRK_VulkanM_C"]/graphicData/texPath</xpath>
+                <value>
+                    <texPath>Things/Item/Equipment/WeaponRanged/HRK_VulkanM_C/{VulkanM_C_Camo}</texPath>
+                </value>
+            </Operation>
+            <Operation Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[defName="HRK_VulkanM_C"]/uiIconPath</xpath>
+                <value>
+                    <uiIconPath>UI/Weapons/HRK_VulkanM_C/{VulkanM_C_Camo}</uiIconPath>
                 </value>
             </Operation>
         </apply>

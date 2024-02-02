@@ -1,0 +1,30 @@
+<li Class="XmlExtensions.Setting.Text">
+                        <text>KRISS Vector</text>
+                        <font>Small</font>
+                        <anchor>Middle</anchor>
+                    </li>
+
+                    <li Class="XmlExtensions.Setting.Gap">
+                        <spacing>2</spacing>
+                    </li>
+
+                    <li Class="XmlExtensions.Setting.RadioButtons">
+                        <key>KRISSVectorGenI_Camo</key>
+                        <defaultValue>HRK_KRISSVectorGenI_Tan</defaultValue>
+                        <buttons>
+                            <li>
+                                <value>HRK_KRISSVectorGenI_Black</value>
+                                <label>Black/Base</label>
+                            </li>
+                            <li>
+                                <value>HRK_KRISSVectorGenI_Tan</value>
+                                <label>Tan/Desert</label>
+                            </li>
+                            <li>
+                                <value>HRK_KRISSVectorGenI_White</value>
+                                <label>Snow/White</label>
+                            </li>
+                        </buttons>
+                    </li>
+
+                    <li Class="XmlExtensions.Setting.Gap"/>
