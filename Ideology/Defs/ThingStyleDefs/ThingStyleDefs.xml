@@ -2,79 +2,129 @@
 <Defs>
 
     <ThingStyleDef>
-        <defName>HRK_KRISSVectorGenI_BlackCamo</defName>
+        <defName>HRK_Vulcan_BlackCamo</defName>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/HRK_KRISSVectorGenI/HRK_KRISSVectorGenI_Black</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/HRK_Vulcan/HRK_Vulcan_Black</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <uiIconPath>UI/Weapons/HRK_KRISSVectorGenI/HRK_KRISSVectorGenI_Black</uiIconPath>
+        <uiIconPath>UI/Weapons/HRK_Vulcan/HRK_Vulcan_Black</uiIconPath>
     </ThingStyleDef>
     <ThingStyleDef>
-        <defName>HRK_KRISSVectorGenI_TanCamo</defName>
+        <defName>HRK_Vulcan_TanCamo</defName>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/HRK_KRISSVectorGenI/HRK_KRISSVectorGenI_Tan</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/HRK_Vulcan/HRK_Vulcan_Tan</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <uiIconPath>UI/Weapons/HRK_KRISSVectorGenI/HRK_KRISSVectorGenI_Tan</uiIconPath>
+        <uiIconPath>UI/Weapons/HRK_Vulcan/HRK_Vulcan_Tan</uiIconPath>
     </ThingStyleDef>
     <ThingStyleDef>
-        <defName>HRK_KRISSVectorGenI_WhiteCamo</defName>
+        <defName>HRK_Vulcan_WhiteCamo</defName>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/HRK_KRISSVectorGenI/HRK_KRISSVectorGenI_White</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/HRK_Vulcan/HRK_Vulcan_White</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <uiIconPath>UI/Weapons/HRK_KRISSVectorGenI/HRK_KRISSVectorGenI_White</uiIconPath>
+        <uiIconPath>UI/Weapons/HRK_Vulcan/HRK_Vulcan_White</uiIconPath>
     </ThingStyleDef>
 
     <ThingStyleDef>
-        <defName>HRK_KRISSVectorGenII_BlackCamo</defName>
+        <defName>HRK_Vulcan_C_BlackCamo</defName>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/HRK_KRISSVectorGenII/HRK_KRISSVectorGenII_Black</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/HRK_Vulcan_C/HRK_Vulcan_C_Black</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <uiIconPath>UI/Weapons/HRK_KRISSVectorGenII/HRK_KRISSVectorGenII_Black</uiIconPath>
+        <uiIconPath>UI/Weapons/HRK_Vulcan_C/HRK_Vulcan_C_Black</uiIconPath>
     </ThingStyleDef>
     <ThingStyleDef>
-        <defName>HRK_KRISSVectorGenII_TanCamo</defName>
+        <defName>HRK_Vulcan_C_TanCamo</defName>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/HRK_KRISSVectorGenII/HRK_KRISSVectorGenII_Tan</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/HRK_Vulcan_C/HRK_Vulcan_C_Tan</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <uiIconPath>UI/Weapons/HRK_KRISSVectorGenII/HRK_KRISSVectorGenII_Tan</uiIconPath>
+        <uiIconPath>UI/Weapons/HRK_Vulcan_C/HRK_Vulcan_C_Tan</uiIconPath>
     </ThingStyleDef>
     <ThingStyleDef>
-        <defName>HRK_KRISSVectorGenII_WhiteCamo</defName>
+        <defName>HRK_Vulcan_C_WhiteCamo</defName>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/HRK_KRISSVectorGenII/HRK_KRISSVectorGenII_White</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/HRK_Vulcan_C/HRK_Vulcan_C_White</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <uiIconPath>UI/Weapons/HRK_KRISSVectorGenII/HRK_KRISSVectorGenII_White</uiIconPath>
+        <uiIconPath>UI/Weapons/HRK_Vulcan_C/HRK_Vulcan_C_White</uiIconPath>
     </ThingStyleDef>
 
 
     <ThingStyleDef>
-        <defName>HRK_KRISSVectorACP_BlackCamo</defName>
+        <defName>HRK_VulkanM_BlackCamo</defName>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/HRK_KRISSVectorACP/HRK_KRISSVectorACP_Black</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/HRK_VulkanM/HRK_VulkanM_Black</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <uiIconPath>UI/Weapons/HRK_KRISSVectorACP/HRK_KRISSVectorACP_Black</uiIconPath>
+        <uiIconPath>UI/Weapons/HRK_VulkanM/HRK_VulkanM_Black</uiIconPath>
     </ThingStyleDef>
     <ThingStyleDef>
-        <defName>HRK_KRISSVectorACP_TanCamo</defName>
+        <defName>HRK_VulkanM_TanCamo</defName>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/HRK_KRISSVectorACP/HRK_KRISSVectorACP_Tan</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/HRK_VulkanM/HRK_VulkanM_Tan</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <uiIconPath>UI/Weapons/HRK_KRISSVectorACP/HRK_KRISSVectorACP_Tan</uiIconPath>
+        <uiIconPath>UI/Weapons/HRK_VulkanM/HRK_VulkanM_Tan</uiIconPath>
     </ThingStyleDef>
     <ThingStyleDef>
-        <defName>HRK_KRISSVectorACP_WhiteCamo</defName>
+        <defName>HRK_VulkanM_WhiteCamo</defName>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/HRK_KRISSVectorACP/HRK_KRISSVectorACP_White</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/HRK_VulkanM/HRK_VulkanM_White</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <uiIconPath>UI/Weapons/HRK_KRISSVectorACP/HRK_KRISSVectorACP_White</uiIconPath>
+        <uiIconPath>UI/Weapons/HRK_VulkanM/HRK_VulkanM_White</uiIconPath>
     </ThingStyleDef>
+
+    <ThingStyleDef>
+        <defName>HRK_VulkanM_C_BlackCamo</defName>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/HRK_VulkanM_C/HRK_VulkanM_C_Black</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconPath>UI/Weapons/HRK_VulkanM_C/HRK_VulkanM_C_Black</uiIconPath>
+    </ThingStyleDef>
+    <ThingStyleDef>
+        <defName>HRK_VulkanM_C_TanCamo</defName>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/HRK_VulkanM_C/HRK_VulkanM_C_Tan</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconPath>UI/Weapons/HRK_VulkanM_C/HRK_VulkanM_C_Tan</uiIconPath>
+    </ThingStyleDef>
+    <ThingStyleDef>
+        <defName>HRK_VulkanM_C_WhiteCamo</defName>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/HRK_VulkanM_C/HRK_VulkanM_C_White</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconPath>UI/Weapons/HRK_VulkanM_C/HRK_VulkanM_C_White</uiIconPath>
+    </ThingStyleDef>
+
+    <ThingStyleDef>
+        <defName>HRK_SNIPEXAlligator_BlackCamo</defName>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/HRK_SNIPEXAlligator/HRK_SNIPEXAlligator_Black</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconPath>UI/Weapons/HRK_SNIPEXAlligator/HRK_SNIPEXAlligator_Black</uiIconPath>
+    </ThingStyleDef>
+    <ThingStyleDef>
+        <defName>HRK_SNIPEXAlligator_TanCamo</defName>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/HRK_SNIPEXAlligator/HRK_SNIPEXAlligator_Tan</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconPath>UI/Weapons/HRK_SNIPEXAlligator/HRK_SNIPEXAlligator_Tan</uiIconPath>
+    </ThingStyleDef>
+    <ThingStyleDef>
+        <defName>HRK_SNIPEXAlligator_WhiteCamo</defName>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/HRK_SNIPEXAlligator/HRK_SNIPEXAlligator_White</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconPath>UI/Weapons/HRK_SNIPEXAlligator/HRK_SNIPEXAlligator_White</uiIconPath>
+    </ThingStyleDef>    
 
 </Defs>

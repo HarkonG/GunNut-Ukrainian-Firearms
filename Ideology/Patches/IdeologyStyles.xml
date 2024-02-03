@@ -5,17 +5,25 @@
         <xpath>/Defs/StyleCategoryDef[defName="HRK_StyleCat_BlackCamo"]/thingDefStyles</xpath>
         <value>
             <li>
-                <thingDef>HRK_KRISSVectorGenI</thingDef>
-                <styleDef>HRK_KRISSVectorGenI_BlackCamo</styleDef>
+                <thingDef>HRK_Vulcan</thingDef>
+                <styleDef>HRK_Vulcan_BlackCamo</styleDef>
             </li>
             <li>
-                <thingDef>HRK_KRISSVectorGenII</thingDef>
-                <styleDef>HRK_KRISSVectorGenII_BlackCamo</styleDef>
+                <thingDef>HRK_Vulcan_C</thingDef>
+                <styleDef>HRK_Vulcan_C_BlackCamo</styleDef>
             </li>
             <li>
-                <thingDef>HRK_KRISSVectorACP</thingDef>
-                <styleDef>HRK_KRISSVectorACP_BlackCamo</styleDef>
+                <thingDef>HRK_VulkanM</thingDef>
+                <styleDef>HRK_VulkanM_BlackCamo</styleDef>
             </li>
+            <li>
+                <thingDef>HRK_VulkanM_C</thingDef>
+                <styleDef>HRK_VulkanM_C_BlackCamo</styleDef>
+            </li>
+            <li>
+                <thingDef>HRK_SNIPEXAlligator</thingDef>
+                <styleDef>HRK_SNIPEXAlligator_BlackCamo</styleDef>
+            </li>            
         </value>
     </Operation>
 
@@ -23,17 +31,25 @@
         <xpath>/Defs/StyleCategoryDef[defName="HRK_StyleCat_TanCamo"]/thingDefStyles</xpath>
         <value>
             <li>
-                <thingDef>HRK_KRISSVectorGenI</thingDef>
-                <styleDef>HRK_KRISSVectorGenI_TanCamo</styleDef>
+                <thingDef>HRK_Vulcan</thingDef>
+                <styleDef>HRK_Vulcan_TanCamo</styleDef>
             </li>
             <li>
-                <thingDef>HRK_KRISSVectorGenII</thingDef>
-                <styleDef>HRK_KRISSVectorGenII_TanCamo</styleDef>
+                <thingDef>HRK_Vulcan_C</thingDef>
+                <styleDef>HRK_Vulcan_C_TanCamo</styleDef>
             </li>
             <li>
-                <thingDef>HRK_KRISSVectorACP</thingDef>
-                <styleDef>HRK_KRISSVectorACP_TanCamo</styleDef>
+                <thingDef>HRK_VulkanM</thingDef>
+                <styleDef>HRK_VulkanM_TanCamo</styleDef>
             </li>
+            <li>
+                <thingDef>HRK_VulkanM_C</thingDef>
+                <styleDef>HRK_VulkanM_C_TanCamo</styleDef>
+            </li>
+            <li>
+                <thingDef>HRK_SNIPEXAlligator</thingDef>
+                <styleDef>HRK_SNIPEXAlligator_TanCamo</styleDef>
+            </li>           
         </value>
     </Operation>
 
@@ -41,17 +57,25 @@
         <xpath>/Defs/StyleCategoryDef[defName="HRK_StyleCat_WhiteCamo"]/thingDefStyles</xpath>
         <value>
             <li>
-                <thingDef>HRK_KRISSVectorGenI</thingDef>
-                <styleDef>HRK_KRISSVectorGenI_WhiteCamo</styleDef>
+                <thingDef>HRK_Vulcan</thingDef>
+                <styleDef>HRK_Vulcan_WhiteCamo</styleDef>
             </li>
             <li>
-                <thingDef>HRK_KRISSVectorGenII</thingDef>
-                <styleDef>HRK_KRISSVectorGenII_WhiteCamo</styleDef>
+                <thingDef>HRK_Vulcan_C</thingDef>
+                <styleDef>HRK_Vulcan_C_WhiteCamo</styleDef>
             </li>
             <li>
-                <thingDef>HRK_KRISSVectorACP</thingDef>
-                <styleDef>HRK_KRISSVectorACP_WhiteCamo</styleDef>
+                <thingDef>HRK_VulkanM</thingDef>
+                <styleDef>HRK_VulkanM_WhiteCamo</styleDef>
             </li>
+            <li>
+                <thingDef>HRK_VulkanM_C</thingDef>
+                <styleDef>HRK_VulkanM_C_WhiteCamo</styleDef>
+            </li>
+            <li>
+                <thingDef>HRK_SNIPEXAlligator</thingDef>
+                <styleDef>HRK_SNIPEXAlligator_WhiteCamo</styleDef>
+            </li>         
         </value>
     </Operation>
 

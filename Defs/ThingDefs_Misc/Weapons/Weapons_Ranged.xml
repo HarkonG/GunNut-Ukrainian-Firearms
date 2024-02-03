@@ -1,96 +1,38 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-<Defs>
+<Defs>  
 
-  <!--HRK_Fort17_Pistol-->
-  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
-    <defName>HRK_Fort17_Pistol</defName>
-    <label>Fort 17</label>
-    <description>Fort 17 pistol is the latest development of the Ukrainian state-owned FORT factory. The Fort 17 is lighter than its predecessor, and features a removable grip backstrap, which can be had in various sizes, to adopt the pistol for a particular shooter.</description>
+  <!--===== Vulcan (Classic) =====-->
+  <ThingDef ParentName="BaseBullet">
+    <defName>HRK_Bullet_Vulcan</defName>
+    <label>Vulcan bullet</label>
     <graphicData>
-      <texPath>Things/Weapons/HRK_Fort17_Pistol</texPath>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <uiIconScale>1.5</uiIconScale>
-    <soundInteract>Interact_Autopistol</soundInteract>
-    <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
-      </recipeUsers>
-      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>4</Crafting>
-      </skillRequirements>
-    </recipeMaker>
-    <statBases>
-      <WorkToMake>5000</WorkToMake>
-      <Mass>1.2</Mass>
-      <AccuracyTouch>0.80</AccuracyTouch>
-      <AccuracyShort>0.70</AccuracyShort>
-      <AccuracyMedium>0.40</AccuracyMedium>
-      <AccuracyLong>0.30</AccuracyLong>
-      <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
-    </statBases>
-    <costList>
-      <Steel>35</Steel>
-      <Chemfuel>10</Chemfuel>
-      <ComponentIndustrial>2</ComponentIndustrial>
-    </costList>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>HRK_Bullet_9x18mmMakarov</defaultProjectile>
-        <warmupTime>0.3</warmupTime>
-        <range>27</range>
-        <soundCast>HRK_Shot_Fort17_Pistol</soundCast>
-        <soundCastTail>GunTail_Light</soundCastTail>
-        <muzzleFlashScale>7</muzzleFlashScale>
-      </li>
-    </verbs>
-    <tools>
-      <li>
-        <label>grip</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-      <li>
-        <label>barrel</label>
-        <capacities>
-          <li>Blunt</li>
-          <li>Poke</li>
-        </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-    </tools>
-    <weaponTags>
-      <li>SimpleGun</li>
-    </weaponTags>
-    <weaponClasses>
-      <li>RangedLight</li>
-      <li>ShortShots</li>
-    </weaponClasses>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>11</damageAmountBase>
+      <stoppingPower>1</stoppingPower>
+      <speed>70</speed>
+    </projectile>
   </ThingDef>
 
-  <!--HRK_Vulkan-->
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
-    <defName>HRK_Vulkan</defName>
-    <label>Vulkan</label>
-    <description>The Malyuk is essentially a bullpup AK with a polymer encasing, which makes it an evolution of Ukraine's previous Vepr assault rifle design. At the heart of the Malyuk is an AKM or AK-74 receiver, with their original barrel, bolt group, and trigger group.</description>
+    <defName>HRK_Vulcan</defName>
+    <label>Vulcan</label>
+    <description>_</description>
     <graphicData>
-      <texPath>Things/Weapons/HRK_Vulkan</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/HRK_Vulcan/HRK_Vulcan_Black</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <equippedAngleOffset>45</equippedAngleOffset>
     <soundInteract>Interact_Rifle</soundInteract>
+    <uiIconPath>UI/Weapons/HRK_Vulcan/HRK_Vulcan_Black</uiIconPath>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>7</Crafting>
       </skillRequirements>
     </recipeMaker>
     <statBases>
@@ -100,95 +42,23 @@
       <AccuracyShort>0.70</AccuracyShort>
       <AccuracyMedium>0.65</AccuracyMedium>
       <AccuracyLong>0.55</AccuracyLong>
-      <RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Chemfuel>20</Chemfuel>
-      <Steel>55</Steel>
-      <ComponentIndustrial>6</ComponentIndustrial>
-    </costList>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>HRK_Bullet_545x39mmSoviet</defaultProjectile>
-        <warmupTime>1.0</warmupTime>
-        <range>26</range>
-        <burstShotCount>3</burstShotCount>
-        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-        <soundCast>HRK_Shot_Vulkan</soundCast>
-        <soundCastTail>GunTail_Medium</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-      </li>
-    </verbs>
-    <tools>
-      <li>
-        <label>stock</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-      <li>
-        <label>barrel</label>
-        <capacities>
-          <li>Blunt</li>
-          <li>Poke</li>
-        </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-    </tools>
-    <weaponTags>
-      <li>IndustrialGunAdvanced</li>
-    </weaponTags>
-    <weaponClasses>
-      <li>RangedLight</li>
-    </weaponClasses>
-  </ThingDef>
-
-  <!--HRK_Vulkan_C-->
-  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
-    <defName>HRK_Vulkan_C</defName>
-    <label>Vulkan (custom)</label>
-    <description>The Malyuk is essentially a bullpup AK with a polymer encasing, which makes it an evolution of Ukraine's previous Vepr assault rifle design. At the heart of the Malyuk is an AKM or AK-74 receiver, with their original barrel, bolt group, and trigger group.</description>
-    <graphicData>
-      <texPath>Things/Weapons/HRK_Vulkan_C</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <equippedAngleOffset>45</equippedAngleOffset>
-    <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>7</Crafting>
-      </skillRequirements>
-    </recipeMaker>
-    <statBases>
-      <WorkToMake>45000</WorkToMake>
-      <Mass>3.1</Mass>
-      <AccuracyTouch>0.70</AccuracyTouch>
-      <AccuracyShort>0.80</AccuracyShort>
-      <AccuracyMedium>0.75</AccuracyMedium>
-      <AccuracyLong>0.65</AccuracyLong>
-      <RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
-    </statBases>
-    <costList>
-      <Chemfuel>20</Chemfuel>
-      <Steel>65</Steel>
+      <Chemfuel>15</Chemfuel>
+      <Steel>60</Steel>
       <ComponentIndustrial>7</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>HRK_Bullet_545x39mmSoviet</defaultProjectile>
-        <warmupTime>1.0</warmupTime>
-        <range>30</range>
+        <defaultProjectile>HRK_Bullet_Vulcan</defaultProjectile>
+        <warmupTime>0.05</warmupTime>
+        <range>31</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-        <soundCast>HRK_Shot_SD_Vulkan</soundCast>
+        <soundCast>HRK_Shot_Vulcan</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -214,314 +84,154 @@
     </tools>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
+      <li>AssaultRifle</li>
     </weaponTags>
-    <equippedStatOffsets>
-      <HuntingStealth>0.15</HuntingStealth>
-    </equippedStatOffsets>
-    <weaponClasses>
-      <li>RangedLight</li>
-    </weaponClasses>
   </ThingDef>
 
-  <!--HRK_VulkanM-->
+  <!--===== Vulcan Malyuk (Gun Nut) =====-->
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
-    <defName>HRK_VulkanM</defName>
-    <label>Vulkan-M</label>
-    <description>The Malyuk is essentially a bullpup AK with a polymer encasing, which makes it an evolution of Ukraine's previous Vepr assault rifle design. At the heart of the Malyuk is an AKM or AK-74 receiver, with their original barrel, bolt group, and trigger group.</description>
+    <defName>HRK_Vulcan_C</defName>
+    <label>Vulcan Malyuk</label>
+    <description>_</description>
     <graphicData>
-      <texPath>Things/Weapons/HRK_VulkanM</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/HRK_Vulcan_C/HRK_Vulcan_C_Black</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <equippedAngleOffset>45</equippedAngleOffset>
     <soundInteract>Interact_Rifle</soundInteract>
+    <uiIconPath>UI/Weapons/HRK_Vulcan_C/HRK_Vulcan_C_Black</uiIconPath>
+    <recipeMaker>
+      <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>45000</WorkToMake>
+      <Mass>3.2</Mass>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.80</AccuracyShort>
+      <AccuracyMedium>0.70</AccuracyMedium>
+      <AccuracyLong>0.60</AccuracyLong>
+      <RangedWeapon_Cooldown>2.3</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Chemfuel>20</Chemfuel>
+      <Steel>60</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>HRK_Bullet_Vulcan</defaultProjectile>
+        <warmupTime>0.05</warmupTime>
+        <range>35</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <soundCast>HRK_Shot_SDVulcan</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+      <li>AssaultRifle</li>
+    </weaponTags>
+    <equippedStatOffsets>
+      <HuntingStealth>0.15</HuntingStealth>
+    </equippedStatOffsets>
+  </ThingDef>
+
+  <!--===== VulcanM (Classic) =====-->
+  <ThingDef ParentName="BaseBullet">
+    <defName>HRK_Bullet_VulcanM</defName>
+    <label>VulcanM bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>12</damageAmountBase>
+      <armorPenetrationBase>0.18</armorPenetrationBase>
+      <stoppingPower>1</stoppingPower>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
+    <defName>HRK_VulcanM</defName>
+    <label>VulcanM</label>
+    <description>_</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/HRK_VulcanM/HRK_VulcanM_Black</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <uiIconPath>UI/Weapons/HRK_VulcanM/HRK_VulcanM_Black</uiIconPath>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>7</Crafting>
-      </skillRequirements>
-    </recipeMaker>
-    <statBases>
-      <WorkToMake>40000</WorkToMake>
-      <Mass>3.0</Mass>
-      <AccuracyTouch>0.55</AccuracyTouch>
-      <AccuracyShort>0.65</AccuracyShort>
-      <AccuracyMedium>0.75</AccuracyMedium>
-      <AccuracyLong>0.60</AccuracyLong>
-      <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
-    </statBases>
-    <costList>
-      <Chemfuel>20</Chemfuel>
-      <Steel>55</Steel>
-      <ComponentIndustrial>6</ComponentIndustrial>
-    </costList>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>HRK_Bullet_762x39mmSoviet</defaultProjectile>
-        <warmupTime>1.0</warmupTime>
-        <range>30</range>
-        <burstShotCount>3</burstShotCount>
-        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
-        <soundCast>HRK_Shot_MVulkan</soundCast>
-        <soundCastTail>GunTail_Medium</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-      </li>
-    </verbs>
-    <tools>
-      <li>
-        <label>stock</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-      <li>
-        <label>barrel</label>
-        <capacities>
-          <li>Blunt</li>
-          <li>Poke</li>
-        </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-    </tools>
-    <weaponTags>
-      <li>IndustrialGunAdvanced</li>
-    </weaponTags>
-    <weaponClasses>
-      <li>RangedLight</li>
-    </weaponClasses>
-  </ThingDef>
-
-  <!--HRK_VulkanM_C-->
-  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
-    <defName>HRK_VulkanM_C</defName>
-    <label>Vulkan-M (custom)</label>
-    <description>The Malyuk is essentially a bullpup AK with a polymer encasing, which makes it an evolution of Ukraine's previous Vepr assault rifle design. At the heart of the Malyuk is an AKM or AK-74 receiver, with their original barrel, bolt group, and trigger group.</description>
-    <graphicData>
-      <texPath>Things/Weapons/HRK_VulkanM_C</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <equippedAngleOffset>45</equippedAngleOffset>
-    <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>8</Crafting>
-      </skillRequirements>
-    </recipeMaker>
-    <statBases>
-      <WorkToMake>45000</WorkToMake>
-      <Mass>3.1</Mass>
-      <AccuracyTouch>0.65</AccuracyTouch>
-      <AccuracyShort>0.75</AccuracyShort>
-      <AccuracyMedium>0.85</AccuracyMedium>
-      <AccuracyLong>0.70</AccuracyLong>
-      <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
-    </statBases>
-    <costList>
-      <Chemfuel>20</Chemfuel>
-      <Steel>65</Steel>
-      <ComponentIndustrial>7</ComponentIndustrial>
-    </costList>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>HRK_Bullet_762x39mmSoviet</defaultProjectile>
-        <warmupTime>1.0</warmupTime>
-        <range>33</range>
-        <burstShotCount>3</burstShotCount>
-        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
-        <soundCast>HRK_Shot_SD_MVulkan</soundCast>
-        <soundCastTail>GunTail_Medium</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-      </li>
-    </verbs>
-    <tools>
-      <li>
-        <label>stock</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-      <li>
-        <label>barrel</label>
-        <capacities>
-          <li>Blunt</li>
-          <li>Poke</li>
-        </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-    </tools>
-    <weaponTags>
-      <li>IndustrialGunAdvanced</li>
-    </weaponTags>
-    <equippedStatOffsets>
-      <HuntingStealth>0.15</HuntingStealth>
-    </equippedStatOffsets>
-    <weaponClasses>
-      <li>RangedLight</li>
-    </weaponClasses>
-  </ThingDef>
-
-  <!--HRK_SNIPEX_Alligator-->
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>HRK_SNIPEX_Alligator</defName>
-    <label>SNIPEX Alligator</label>
-    <description>The Snipex Alligator long-range large-caliber magazine-fed repeating rifle is designed to engage moving and stationary targets: vehicles, communications and air defense systems, aircraft in parking areas, fortified fixed defensive positions, dugouts, etc. The box magazine is detachable, holds five rounds of ammunition. It is designed to pierce a 10-mm armor plate from a distance of 1.5 km with a single bullet.</description>
-    <graphicData>
-      <texPath>Things/Weapons/HRK_SNIPEX_Alligator</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.25</drawSize>
-    </graphicData>
-    <soundInteract>Interact_Rifle</soundInteract>
-    <statBases>
-      <WorkToMake>60000</WorkToMake>
-      <Mass>8</Mass>
-      <AccuracyTouch>0.3</AccuracyTouch>
-      <AccuracyShort>0.45</AccuracyShort>
-      <AccuracyMedium>0.75</AccuracyMedium>
-      <AccuracyLong>0.92</AccuracyLong>
-      <RangedWeapon_Cooldown>2.9</RangedWeapon_Cooldown>
-    </statBases>
-    <equippedAngleOffset>45</equippedAngleOffset>
-    <equippedStatOffsets>
-      <MoveSpeed>-0.15</MoveSpeed>      <!-- drawback -->
-    </equippedStatOffsets>
-    <costList>
-      <Steel>130</Steel>
-      <ComponentIndustrial>13</ComponentIndustrial>
-    </costList>
-    <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
-      </recipeUsers>
-      <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
-      <skillRequirements>
-        <Crafting>8</Crafting>
-      </skillRequirements>
-    </recipeMaker>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>HRK_Bullet_145x114mmSoviet</defaultProjectile>
-        <warmupTime>3.3</warmupTime>
-        <range>45</range>
-        <soundCast>HRK_Shot_SNIPEX_Alligator</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-      </li>
-    </verbs>
-    <tools>
-      <li>
-        <label>stock</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>14</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-      <li>
-        <label>barrel</label>
-        <capacities>
-          <li>Blunt</li>
-          <li>Poke</li>
-        </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-    </tools>
-    <weaponTags Inherit="False">
-      <li>SniperRifle</li>
-    </weaponTags>
-    <weaponClasses>
-      <li>LongShots</li>
-      <li>RangedHeavy</li>
-    </weaponClasses>
-  </ThingDef>
-
-  <!--HRK_UkrainianDSHK-->
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>HRK_UkrainianDSHK</defName>
-    <label>hand-held DShK</label>
-    <description>The DShK is a Soviet heavy machine gun with a V-shaped butterfly trigger, firing the 12.7×108mm cartridge. This DShk has been modified into a shoulder-fired infantry weapon.</description>
-    <graphicData>
-      <texPath>Things/Weapons/HRK_UkrainianDSHK</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.25</drawSize>
-    </graphicData>
-    <equippedAngleOffset>45</equippedAngleOffset>
-    <soundInteract>Interact_Rifle</soundInteract>
-    <recipeMaker>
-      <researchPrerequisite>HeavyTurrets</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
     </recipeMaker>
     <statBases>
-      <AccuracyTouch>0.27</AccuracyTouch>
-      <AccuracyShort>0.67</AccuracyShort>
-      <AccuracyMedium>0.62</AccuracyMedium>
-      <AccuracyLong>0.47</AccuracyLong>
-      <RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
-      <DeteriorationRate>0</DeteriorationRate>
-      <Mass>30</Mass>
-      <Flammability>0</Flammability>
-      <WorkToMake>14000</WorkToMake>
+      <WorkToMake>40000</WorkToMake>
+      <Mass>3.3</Mass>
+      <AccuracyTouch>0.55</AccuracyTouch>
+      <AccuracyShort>0.65</AccuracyShort>
+      <AccuracyMedium>0.75</AccuracyMedium>
+      <AccuracyLong>0.60</AccuracyLong>
+      <RangedWeapon_Cooldown>2.4</RangedWeapon_Cooldown>
     </statBases>
-    <equippedStatOffsets>
-      <MoveSpeed>-0.2</MoveSpeed>
-    </equippedStatOffsets>
     <costList>
-      <Steel>180</Steel>
-      <Chemfuel>60</Chemfuel>
-      <ComponentIndustrial>3</ComponentIndustrial>
+      <Chemfuel>20</Chemfuel>
+      <Steel>60</Steel>
+      <ComponentIndustrial>7</ComponentIndustrial>
     </costList>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
-        <defaultProjectile>HRK_Bullet_127x108mmSoviet</defaultProjectile>
         <hasStandardCommand>true</hasStandardCommand>
-        <warmupTime>1.2</warmupTime>
-        <minRange>4.2</minRange>
-        <range>32</range>
-        <ticksBetweenBurstShots>15</ticksBetweenBurstShots>
-        <burstShotCount>7</burstShotCount>
-        <soundCast>HRK_Shot_UkrainianDSHK</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>12</muzzleFlashScale>
+        <defaultProjectile>HRK_Bullet_VulcanM</defaultProjectile>
+        <warmupTime>0.05</warmupTime>
+        <range>34</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <soundCast>HRK_Shot_VulcanM</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
       </li>
     </verbs>
-    <!--<verbs>
-      <li>
-        <verbClass>HeavyWeapons.Verb_Shoot</verbClass>
-        <defaultProjectile>HRK_Bullet_127x108mmSoviet</defaultProjectile>
-        <hasStandardCommand>true</hasStandardCommand>
-        <warmupTime>1.2</warmupTime>
-        <minRange>4.2</minRange>
-        <range>32</range>
-        <ticksBetweenBurstShots>15</ticksBetweenBurstShots>
-        <burstShotCount>7</burstShotCount>
-        <soundCast>HRK_Shot_UkrainianDSHK</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>12</muzzleFlashScale>
-      </li>
-    </verbs>-->
     <tools>
       <li>
-        <label>grip</label>
+        <label>stock</label>
         <capacities>
           <li>Blunt</li>
         </capacities>
         <power>9</power>
-        <cooldownTime>4</cooldownTime>
+        <cooldownTime>2</cooldownTime>
       </li>
       <li>
         <label>barrel</label>
@@ -530,24 +240,179 @@
           <li>Poke</li>
         </capacities>
         <power>9</power>
-        <cooldownTime>4</cooldownTime>
+        <cooldownTime>2</cooldownTime>
       </li>
     </tools>
-    <!--<modExtensions>
-      <li Class="HeavyWeapons.HeavyWeapon">
-        <weaponHitPointsDeductionOnShot>1</weaponHitPointsDeductionOnShot>
-        <isHeavy>true</isHeavy>
-        <supportedArmors>
-          <li>VWE_Apparel_Exoframe</li>
-        </supportedArmors>
-      </li>
-    </modExtensions>-->
-    <weaponTags Inherit='False'>
-      <li>HeavyGun</li>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+      <li>AssaultRifle</li>
     </weaponTags>
+  </ThingDef>
+
+  <!--===== VulcanM FLIR (Gun Nut) =====-->
+  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
+    <defName>HRK_VulcanM_C</defName>
+    <label>VulcanM FLIR</label>
+    <description>_</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/HRK_VulcanM_C/HRK_VulcanM_C_Black</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <uiIconPath>UI/Weapons/HRK_VulcanM_C/HRK_VulcanM_C_Black</uiIconPath>
+    <recipeMaker>
+      <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>45000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.55</AccuracyTouch>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.85</AccuracyMedium>
+      <AccuracyLong>0.65</AccuracyLong>
+      <RangedWeapon_Cooldown>2.1</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Chemfuel>25</Chemfuel>
+      <Steel>60</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>HRK_Bullet_VulcanM</defaultProjectile>
+        <warmupTime>0.05</warmupTime>
+        <range>37</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <soundCast>HRK_Shot_SDVulcanM</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+      <li>AssaultRifle</li>
+    </weaponTags>
+    <equippedStatOffsets>
+      <HuntingStealth>0.15</HuntingStealth>
+    </equippedStatOffsets>
+  </ThingDef>  
+
+  <!--===== SNIPEX Alligator =====-->
+  <ThingDef ParentName="BaseBullet">
+    <defName>HRK_Bullet_SNIPEXAlligator</defName>
+    <label>SNIPEX Alligator AM bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>56</damageAmountBase>
+      <armorPenetrationBase>0.9</armorPenetrationBase>
+      <stoppingPower>3</stoppingPower>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
+    <defName>HRK_SNIPEXAlligator</defName>
+    <label>SNIPEX Alligator</label>
+    <description>_</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/HRK_SNIPEXAlligator/HRK_SNIPEXAlligator_Black</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.25</drawSize>
+    </graphicData>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <uiIconPath>UI/Weapons/HRK_SNIPEXAlligator/HRK_SNIPEXAlligator_Black</uiIconPath>
+    <recipeMaker>
+      <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>60000</WorkToMake>
+      <Mass>7</Mass>
+      <AccuracyTouch>0.30</AccuracyTouch>
+      <AccuracyShort>0.45</AccuracyShort>
+      <AccuracyMedium>0.75</AccuracyMedium>
+      <AccuracyLong>0.92</AccuracyLong>
+      <RangedWeapon_Cooldown>4.2</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Chemfuel>35</Chemfuel>
+      <Steel>160</Steel>
+      <ComponentIndustrial>16</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>HRK_Bullet_SNIPEXAlligator</defaultProjectile>
+        <warmupTime>0.05</warmupTime>
+        <range>43</range>
+        <soundCast>HRK_Shot_SNIPEXAlligator</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
     <weaponClasses>
+      <li>LongShots</li>
       <li>RangedHeavy</li>
     </weaponClasses>
+    <weaponTags Inherit="False">      <!-- make sure no other raiders wield this monstrum -->
+      <li>SniperRifle</li>
+    </weaponTags>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.25</MoveSpeed>      <!-- drawback -->
+    </equippedStatOffsets>
   </ThingDef>
 
 </Defs>

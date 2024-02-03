@@ -1,5 +1,5 @@
-<li Class="XmlExtensions.Setting.Text">
-                        <text>KRISS Vector</text>
+ <li Class="XmlExtensions.Setting.Text">
+                        <text>VulcanM FLIR</text>
                         <font>Small</font>
                         <anchor>Middle</anchor>
                     </li>
@@ -9,19 +9,19 @@
                     </li>
 
                     <li Class="XmlExtensions.Setting.RadioButtons">
-                        <key>KRISSVectorGenI_Camo</key>
-                        <defaultValue>HRK_KRISSVectorGenI_Tan</defaultValue>
+                        <key>VulcanM_C_Camo</key>
+                        <defaultValue>HRK_VulcanM_C_Black</defaultValue>
                         <buttons>
                             <li>
-                                <value>HRK_KRISSVectorGenI_Black</value>
+                                <value>HRK_VulcanM_C_Black</value>
                                 <label>Black/Base</label>
                             </li>
                             <li>
-                                <value>HRK_KRISSVectorGenI_Tan</value>
+                                <value>HRK_VulcanM_C_Tan</value>
                                 <label>Tan/Desert</label>
                             </li>
                             <li>
-                                <value>HRK_KRISSVectorGenI_White</value>
+                                <value>HRK_VulcanM_C_White</value>
                                 <label>Snow/White</label>
                             </li>
                         </buttons>

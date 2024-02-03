@@ -35,7 +35,7 @@
                 <leftCol>
 
                     <li Class="XmlExtensions.Setting.Text">
-                        <text>KRISS Vector</text>
+                        <text>Vulcan</text>
                         <font>Small</font>
                         <anchor>Middle</anchor>
                     </li>
@@ -45,19 +45,19 @@
                     </li>
 
                     <li Class="XmlExtensions.Setting.RadioButtons">
-                        <key>Vulkan_Camo</key>
-                        <defaultValue>HRK_Vulkan_Tan</defaultValue>
+                        <key>Vulcan_Camo</key>
+                        <defaultValue>HRK_Vulcan_Tan</defaultValue>
                         <buttons>
                             <li>
-                                <value>HRK_Vulkan_Black</value>
+                                <value>HRK_Vulcan_Black</value>
                                 <label>Black/Base</label>
                             </li>
                             <li>
-                                <value>HRK_Vulkan_Tan</value>
+                                <value>HRK_Vulcan_Tan</value>
                                 <label>Tan/Desert</label>
                             </li>
                             <li>
-                                <value>HRK_Vulkan_White</value>
+                                <value>HRK_Vulcan_White</value>
                                 <label>Snow/White</label>
                             </li>
                         </buttons>
@@ -66,7 +66,7 @@
                     <li Class="XmlExtensions.Setting.Gap"/>
 
                     <li Class="XmlExtensions.Setting.Text">
-                        <text>KRISS Vector Gen.II</text>
+                        <text>Vulcan Malyuk</text>
                         <font>Small</font>
                         <anchor>Middle</anchor>
                     </li>
@@ -76,29 +76,62 @@
                     </li>
 
                     <li Class="XmlExtensions.Setting.RadioButtons">
-                        <key>Vulkan_C_Camo</key>
-                        <defaultValue>HRK_Vulkan_C_White</defaultValue>
+                        <key>Vulcan_C_Camo</key>
+                        <defaultValue>HRK_Vulcan_C_White</defaultValue>
                         <buttons>
                             <li>
-                                <value>HRK_Vulkan_C_Black</value>
+                                <value>HRK_Vulcan_C_Black</value>
                                 <label>Black/Base</label>
                             </li>
                             <li>
-                                <value>HRK_Vulkan_C_Tan</value>
+                                <value>HRK_Vulcan_C_Tan</value>
                                 <label>Tan/Desert</label>
                             </li>
                             <li>
-                                <value>HRK_Vulkan_C_White</value>
+                                <value>HRK_Vulcan_C_White</value>
                                 <label>Snow/White</label>
                             </li>
                         </buttons>
                     </li>
 
+                    <li Class="XmlExtensions.Setting.Gap"/>
+
+                    <li Class="XmlExtensions.Setting.Text">
+                        <text>SNIPEX Alligator</text>
+                        <font>Small</font>
+                        <anchor>Middle</anchor>
+                    </li>
+
+                    <li Class="XmlExtensions.Setting.Gap">
+                        <spacing>2</spacing>
+                    </li>
+
+                    <li Class="XmlExtensions.Setting.RadioButtons">
+                        <key>SNIPEXAlligator_Camo</key>
+                        <defaultValue>HRK_SNIPEXAlligator_Tan</defaultValue>
+                        <buttons>
+                            <li>
+                                <value>HRK_SNIPEXAlligator_Black</value>
+                                <label>Black/Base</label>
+                            </li>
+                            <li>
+                                <value>HRK_SNIPEXAlligator_Tan</value>
+                                <label>Tan/Desert</label>
+                            </li>
+                            <li>
+                                <value>HRK_SNIPEXAlligator_White</value>
+                                <label>Snow/White</label>
+                            </li>
+                        </buttons>
+                    </li>
+
+                    <li Class="XmlExtensions.Setting.Gap"/>
+
                 </leftCol>
                 <rightCol>
 
                     <li Class="XmlExtensions.Setting.Text">
-                        <text>KRISS Vector ACP</text>
+                        <text>VulcanM</text>
                         <font>Small</font>
                         <anchor>Middle</anchor>
                     </li>
@@ -125,6 +158,39 @@
                             </li>
                         </buttons>
                     </li>
+
+                    <li Class="XmlExtensions.Setting.Gap"/>
+
+                    <li Class="XmlExtensions.Setting.Text">
+                        <text>VulcanM FLIR</text>
+                        <font>Small</font>
+                        <anchor>Middle</anchor>
+                    </li>
+
+                    <li Class="XmlExtensions.Setting.Gap">
+                        <spacing>2</spacing>
+                    </li>
+
+                    <li Class="XmlExtensions.Setting.RadioButtons">
+                        <key>VulcanM_C_Camo</key>
+                        <defaultValue>HRK_VulcanM_C_Black</defaultValue>
+                        <buttons>
+                            <li>
+                                <value>HRK_VulcanM_C_Black</value>
+                                <label>Black/Base</label>
+                            </li>
+                            <li>
+                                <value>HRK_VulcanM_C_Tan</value>
+                                <label>Tan/Desert</label>
+                            </li>
+                            <li>
+                                <value>HRK_VulcanM_C_White</value>
+                                <label>Snow/White</label>
+                            </li>
+                        </buttons>
+                    </li>
+
+                    <li Class="XmlExtensions.Setting.Gap"/>
 
                 </rightCol>
             </li>

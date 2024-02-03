@@ -3,19 +3,19 @@
 
     <Operation Class="XmlExtensions.UseSetting">
         <modId>Harkon.GunNut.UkrainianFirearms</modId>
-        <key>Vulkan_Camo</key>
-        <defaultValue>HRK_Vulkan_Black</defaultValue>
+        <key>Vulcan_Camo</key>
+        <defaultValue>HRK_Vulcan_Black</defaultValue>
         <apply>
             <Operation Class="PatchOperationReplace">
-                <xpath>/Defs/ThingDef[defName="HRK_Vulkan"]/graphicData/texPath</xpath>
+                <xpath>/Defs/ThingDef[defName="HRK_Vulcan"]/graphicData/texPath</xpath>
                 <value>
-                    <texPath>Things/Item/Equipment/WeaponRanged/HRK_Vulkan/{Vulkan_Camo}</texPath>
+                    <texPath>Things/Item/Equipment/WeaponRanged/HRK_Vulcan/{Vulcan_Camo}</texPath>
                 </value>
             </Operation>
             <Operation Class="PatchOperationReplace">
-                <xpath>/Defs/ThingDef[defName="HRK_Vulkan"]/uiIconPath</xpath>
+                <xpath>/Defs/ThingDef[defName="HRK_Vulcan"]/uiIconPath</xpath>
                 <value>
-                    <uiIconPath>UI/Weapons/HRK_Vulkan/{Vulkan_Camo}</uiIconPath>
+                    <uiIconPath>UI/Weapons/HRK_Vulcan/{Vulcan_Camo}</uiIconPath>
                 </value>
             </Operation>
         </apply>
@@ -23,19 +23,19 @@
 
     <Operation Class="XmlExtensions.UseSetting">
         <modId>Harkon.GunNut.UkrainianFirearms</modId>
-        <key>Vulkan_C_Camo</key>
-        <defaultValue>HRK_Vulkan_C_Black</defaultValue>
+        <key>Vulcan_C_Camo</key>
+        <defaultValue>HRK_Vulcan_C_Black</defaultValue>
         <apply>
             <Operation Class="PatchOperationReplace">
-                <xpath>/Defs/ThingDef[defName="HRK_Vulkan_C"]/graphicData/texPath</xpath>
+                <xpath>/Defs/ThingDef[defName="HRK_Vulcan_C"]/graphicData/texPath</xpath>
                 <value>
-                    <texPath>Things/Item/Equipment/WeaponRanged/HRK_Vulkan_C/{Vulkan_C_Camo}</texPath>
+                    <texPath>Things/Item/Equipment/WeaponRanged/HRK_Vulcan_C/{Vulcan_C_Camo}</texPath>
                 </value>
             </Operation>
             <Operation Class="PatchOperationReplace">
-                <xpath>/Defs/ThingDef[defName="HRK_Vulkan_C"]/uiIconPath</xpath>
+                <xpath>/Defs/ThingDef[defName="HRK_Vulcan_C"]/uiIconPath</xpath>
                 <value>
-                    <uiIconPath>UI/Weapons/HRK_Vulkan_C/{Vulkan_C_Camo}</uiIconPath>
+                    <uiIconPath>UI/Weapons/HRK_Vulcan_C/{Vulcan_C_Camo}</uiIconPath>
                 </value>
             </Operation>
         </apply>
@@ -63,19 +63,19 @@
 
     <Operation Class="XmlExtensions.UseSetting">
         <modId>Harkon.GunNut.UkrainianFirearms</modId>
-        <key>VulkanM_Camo</key>
-        <defaultValue>HRK_VulkanM_Black</defaultValue>
+        <key>VulcanM_Camo</key>
+        <defaultValue>HRK_VulcanM_Black</defaultValue>
         <apply>
             <Operation Class="PatchOperationReplace">
-                <xpath>/Defs/ThingDef[defName="HRK_Vulkan"]/graphicData/texPath</xpath>
+                <xpath>/Defs/ThingDef[defName="HRK_Vulcan"]/graphicData/texPath</xpath>
                 <value>
-                    <texPath>Things/Item/Equipment/WeaponRanged/HRK_Vulkan/{VulkanM_Camo}</texPath>
+                    <texPath>Things/Item/Equipment/WeaponRanged/HRK_Vulcan/{VulcanM_Camo}</texPath>
                 </value>
             </Operation>
             <Operation Class="PatchOperationReplace">
-                <xpath>/Defs/ThingDef[defName="HRK_Vulkan"]/uiIconPath</xpath>
+                <xpath>/Defs/ThingDef[defName="HRK_Vulcan"]/uiIconPath</xpath>
                 <value>
-                    <uiIconPath>UI/Weapons/HRK_Vulkan/{VulkanM_Camo}</uiIconPath>
+                    <uiIconPath>UI/Weapons/HRK_Vulcan/{VulcanM_Camo}</uiIconPath>
                 </value>
             </Operation>
         </apply>
@@ -83,19 +83,19 @@
 
     <Operation Class="XmlExtensions.UseSetting">
         <modId>Harkon.GunNut.UkrainianFirearms</modId>
-        <key>VulkanM_C_Camo</key>
-        <defaultValue>HRK_VulkanM_C_Black</defaultValue>
+        <key>VulcanM_C_Camo</key>
+        <defaultValue>HRK_VulcanM_C_Black</defaultValue>
         <apply>
             <Operation Class="PatchOperationReplace">
-                <xpath>/Defs/ThingDef[defName="HRK_VulkanM_C"]/graphicData/texPath</xpath>
+                <xpath>/Defs/ThingDef[defName="HRK_VulcanM_C"]/graphicData/texPath</xpath>
                 <value>
-                    <texPath>Things/Item/Equipment/WeaponRanged/HRK_VulkanM_C/{VulkanM_C_Camo}</texPath>
+                    <texPath>Things/Item/Equipment/WeaponRanged/HRK_VulcanM_C/{VulcanM_C_Camo}</texPath>
                 </value>
             </Operation>
             <Operation Class="PatchOperationReplace">
-                <xpath>/Defs/ThingDef[defName="HRK_VulkanM_C"]/uiIconPath</xpath>
+                <xpath>/Defs/ThingDef[defName="HRK_VulcanM_C"]/uiIconPath</xpath>
                 <value>
-                    <uiIconPath>UI/Weapons/HRK_VulkanM_C/{VulkanM_C_Camo}</uiIconPath>
+                    <uiIconPath>UI/Weapons/HRK_VulcanM_C/{VulcanM_C_Camo}</uiIconPath>
                 </value>
             </Operation>
         </apply>

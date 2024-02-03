@@ -38,10 +38,10 @@
                 <xpath>
 				    /Defs/ThingDef[
                     defName = "HRK_SNIPEX_Alligator" or
-					defName = "HRK_Vulkan" or
-					defName = "HRK_Vulkan_C" or
-                    defName = "HRK_VulkanM" or
-					defName = "HRK_VulkanM_C"]/tools
+					defName = "HRK_Vulcan" or
+					defName = "HRK_Vulcan_C" or
+                    defName = "HRK_VulcanM" or
+					defName = "HRK_VulcanM_C"]/tools
                 </xpath>
                 <value>
                     <tools>
@@ -139,9 +139,9 @@
                 <researchPrerequisite>BlowbackOperation</researchPrerequisite>
             </li>
 
-            <!--===== HRK_Vulkan =====-->
+            <!--===== HRK_Vulcan =====-->
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                <defName>HRK_Vulkan</defName>
+                <defName>HRK_Vulcan</defName>
                 <statBases>
                     <WorkToMake>36500</WorkToMake>
                     <SightsEfficiency>1.00</SightsEfficiency>
@@ -164,7 +164,7 @@
                     <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
                     <warmupTime>1.1</warmupTime>
                     <range>50</range>
-                    <soundCast>HRK_Shot_Vulkan</soundCast>
+                    <soundCast>HRK_Shot_Vulcan</soundCast>
                     <soundCastTail>GunTail_Medium</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
                     <recoilAmount>1.41</recoilAmount>
@@ -181,9 +181,9 @@
                 </FireModes>
             </li>
 
-            <!--===== HRK_Vulkan_C =====-->
+            <!--===== HRK_Vulcan_C =====-->
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                <defName>HRK_Vulkan_C</defName>
+                <defName>HRK_Vulcan_C</defName>
                 <statBases>
                     <WorkToMake>38500</WorkToMake>
                     <SightsEfficiency>1.1</SightsEfficiency>
@@ -206,7 +206,7 @@
                     <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
                     <warmupTime>1</warmupTime>
                     <range>50</range>
-                    <soundCast>HRK_Shot_SD_Vulkan</soundCast>
+                    <soundCast>HRK_Shot_SD_Vulcan</soundCast>
                     <soundCastTail>GunTail_Medium</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
                     <recoilAmount>1.31</recoilAmount>
@@ -223,9 +223,9 @@
                 </FireModes>
             </li>
 
-            <!--===== HRK_VulkanM =====-->
+            <!--===== HRK_VulcanM =====-->
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                <defName>HRK_VulkanM</defName>
+                <defName>HRK_VulcanM</defName>
                 <statBases>
                     <WorkToMake>36500</WorkToMake>
                     <SightsEfficiency>1.00</SightsEfficiency>
@@ -248,7 +248,7 @@
                     <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
                     <warmupTime>1.1</warmupTime>
                     <range>53</range>
-                    <soundCast>HRK_Shot_MVulkan</soundCast>
+                    <soundCast>HRK_Shot_MVulcan</soundCast>
                     <soundCastTail>GunTail_Medium</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
                     <recoilAmount>2.07</recoilAmount>
@@ -265,9 +265,9 @@
                 </FireModes>
             </li>
 
-            <!--===== HRK_VulkanM_C =====-->
+            <!--===== HRK_VulcanM_C =====-->
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                <defName>HRK_VulkanM_C</defName>
+                <defName>HRK_VulcanM_C</defName>
                 <statBases>
                     <WorkToMake>41000</WorkToMake>
                     <SightsEfficiency>2.24</SightsEfficiency>
@@ -290,7 +290,7 @@
                     <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
                     <warmupTime>1.3</warmupTime>
                     <range>53</range>
-                    <soundCast>HRK_Shot_SD_MVulkan</soundCast>
+                    <soundCast>HRK_Shot_SD_MVulcan</soundCast>
                     <soundCastTail>GunTail_Medium</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
                     <recoilAmount>1.97</recoilAmount>

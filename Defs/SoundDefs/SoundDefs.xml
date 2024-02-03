@@ -3,7 +3,7 @@
 <Defs>
 
     <SoundDef>
-        <defName>HRK_Shot_Fort17_Pistol</defName>
+        <defName>HRK_Shot_Fort17Pistol</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -11,7 +11,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Clip">
-                        <clipPath>Weapons/HRK_Shot_Fort17_Pistol</clipPath>
+                        <clipPath>Weapons/HRK_Shot_Fort17Pistol</clipPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -53,7 +53,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>HRK_Shot_SNIPEX_Alligator</defName>
+        <defName>HRK_Shot_SNIPEXAlligator</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -61,7 +61,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Clip">
-                        <clipPath>Weapons/HRK_Shot_SNIPEX_Alligator</clipPath>
+                        <clipPath>Weapons/HRK_Shot_SNIPEXAlligator</clipPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -78,7 +78,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>HRK_Shot_MVulkan</defName>
+        <defName>HRK_Shot_VulcanM</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -86,7 +86,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Clip">
-                        <clipPath>Weapons/HRK_Shot_MVulkan</clipPath>
+                        <clipPath>Weapons/HRK_Shot_VulcanM</clipPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -103,7 +103,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>HRK_Shot_SD_MVulkan</defName>
+        <defName>HRK_Shot_SDVulcanM</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -111,7 +111,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Clip">
-                        <clipPath>Weapons/HRK_Shot_SD_MVulkan</clipPath>
+                        <clipPath>Weapons/HRK_Shot_SDVulcanM</clipPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -128,7 +128,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>HRK_Shot_Vulkan</defName>
+        <defName>HRK_Shot_Vulcan</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -136,7 +136,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Clip">
-                        <clipPath>Weapons/HRK_Shot_Vulkan</clipPath>
+                        <clipPath>Weapons/HRK_Shot_Vulcan</clipPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -153,7 +153,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>HRK_Shot_SD_Vulkan</defName>
+        <defName>HRK_Shot_SDVulcan</defName>
         <context>MapOnly</context>
         <eventNames />
         <maxSimultaneous>1</maxSimultaneous>
@@ -161,7 +161,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Clip">
-                        <clipPath>Weapons/HRK_Shot_SD_Vulkan</clipPath>
+                        <clipPath>Weapons/HRK_Shot_SDVulcan</clipPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -175,31 +175,6 @@
                 <sustainLoop>False</sustainLoop>
             </li>
         </subSounds>
-    </SoundDef>
-
-    <SoundDef>
-        <defName>HRK_Shot_UAG40_AGL</defName>
-        <context>MapOnly</context>
-        <eventNames />
-        <maxSimultaneous>1</maxSimultaneous>
-        <subSounds>
-            <li>
-                <grains>
-                    <li Class="AudioGrain_Clip">
-                        <clipPath>Weapons/HRK_Shot_UAG40_AGL</clipPath>
-                    </li>
-                </grains>
-                <volumeRange>
-                    <min>34.2941</min>
-                    <max>40.2941</max>
-                </volumeRange>
-                <pitchRange>
-                    <min>1.191765</min>
-                    <max>1.231435</max>
-                </pitchRange>
-                <sustainLoop>False</sustainLoop>
-            </li>
-        </subSounds>
-    </SoundDef>
+    </SoundDef>    
 
 </Defs>
