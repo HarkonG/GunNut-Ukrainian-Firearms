@@ -609,21 +609,19 @@
     <defName>HRK_Bullet_RGSh30GL</defName>
     <label>RGSh-30 grenade</label>
     <graphicData>
-      <texPath>Things/Projectile/LauncherShot/Shared/HE</texPath>
+      <texPath>Things/Projectile/Bullet_Big</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
-      <speed>40</speed>
+      <speed>50</speed>
       <damageDef>Bomb</damageDef>
-      <!-- Use default damage from explosion def -->
-      <explosionRadius>1.9</explosionRadius>
+      <explosionRadius>1</explosionRadius>
       <preExplosionSpawnThingDef>Filth_RubbleRock</preExplosionSpawnThingDef>
       <preExplosionSpawnChance>0.3</preExplosionSpawnChance>
       <ai_IsIncendiary>false</ai_IsIncendiary>
-      <arcHeightFactor>0.55</arcHeightFactor>
-      <shadowSize>0.6</shadowSize>
-      <explosionDelay>0</explosionDelay>
+      <explosionDelay>1</explosionDelay>
+      <damageAmountBase>10</damageAmountBase>
     </projectile>
   </ThingDef>
 
@@ -641,19 +639,19 @@
     <soundInteract>HRK_Interact_RGSh30GL</soundInteract>
     <generateCommonality>0.3</generateCommonality>
     <statBases>
-      <WorkToMake>9000</WorkToMake>
-      <Mass>3.4</Mass>
-      <RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
+      <WorkToMake>13000</WorkToMake>
+      <Mass>3</Mass>
+      <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>79</Steel>
+      <Steel>75</Steel>
       <ComponentIndustrial>4</ComponentIndustrial>
-      <WoodLog>15</WoodLog>
+      <Chemfuel>30</Chemfuel>
     </costList>
     <recipeMaker>
-      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <researchPrerequisite>HRK_Research_GunNut</researchPrerequisite>
       <skillRequirements>
-        <Crafting>4</Crafting>
+        <Crafting>5</Crafting>
       </skillRequirements>
     </recipeMaker>
     <verbs>
@@ -664,7 +662,7 @@
         <ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
         <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
         <warmupTime>3.5</warmupTime>
-        <range>24</range>
+        <range>28</range>
         <forcedMissRadius>1.9</forcedMissRadius>
         <burstShotCount>1</burstShotCount>
         <soundCast>HRK_Shot_RGSh30GL</soundCast>
@@ -698,8 +696,8 @@
       <li>RangedHeavy</li>
     </weaponClasses>
     <weaponTags>
+      <li>IndustrialGunAdvanced</li>
       <li>GunHeavy</li>
-      <li>SimpleGun</li>
     </weaponTags>
   </ThingDef>
 

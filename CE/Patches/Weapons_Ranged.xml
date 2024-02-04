@@ -6,7 +6,7 @@
 
             <!--===== TOOLS FOR THE TOOL GOD =====-->
             <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[defName="HRK_Fort17_Pistol"]/tools</xpath>
+                <xpath>Defs/ThingDef[defName = "HRK_Fort17Pistol"]/tools</xpath>
                 <value>
                     <tools>
                         <li Class="CombatExtended.ToolCE">
@@ -36,8 +36,7 @@
 
             <li Class="PatchOperationReplace">
                 <xpath>
-				    /Defs/ThingDef[
-                    defName = "HRK_SNIPEX_Alligator" or
+				    /Defs/ThingDef[                    
 					defName = "HRK_Vulcan" or
 					defName = "HRK_Vulcan_C" or
                     defName = "HRK_VulcanM" or
@@ -81,7 +80,10 @@
             </li>
 
             <li Class="PatchOperationReplace">
-                <xpath>/Defs/ThingDef[defName ="HRK_UkrainianDSHK"]/tools</xpath>
+                <xpath>/Defs/ThingDef[
+                    defName = "HRK_UkrainianDSHK" or
+                    defName = "HRK_SNIPEXAlligator" or
+                    defName = "HRK_RGSh30GL"]/tools</xpath>
                 <value>
                     <tools>
                         <li Class="CombatExtended.ToolCE">
@@ -100,7 +102,7 @@
 
             <!--===== HRK_Fort17_Pistol =====-->
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                <defName>HRK_Fort17_Pistol</defName>
+                <defName>HRK_Fort17Pistol</defName>
                 <statBases>
                     <Mass>1.10</Mass>
                     <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
@@ -307,9 +309,9 @@
                 </FireModes>
             </li>
 
-            <!--===== HRK_SNIPEX_Alligator =====-->
+            <!--===== HRK_SNIPEXAlligator =====-->
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                <defName>HRK_SNIPEX_Alligator</defName>
+                <defName>HRK_SNIPEXAlligator</defName>
                 <statBases>
                     <Bulk>12.55</Bulk>
                     <Mass>6.60</Mass>
@@ -349,12 +351,12 @@
             </li>
 
             <!--===== HRK_Shot_UkrainianDSHK =====-->
-            <li Class="PatchOperationReplace">
+            <!--<li Class="PatchOperationReplace">
                 <xpath>/Defs/ThingDef[defName ="HRK_UkrainianDSHK"]/verbs/li/verbClass</xpath>
                 <value>
                     <verbClass>Verb_Shoot</verbClass>
                 </value>
-            </li>
+            </li>-->
 
             <li Class="PatchOperationReplace">
                 <xpath>/Defs/ThingDef[defName ="HRK_UkrainianDSHK"]/recipeMaker/researchPrerequisite</xpath>
@@ -365,6 +367,46 @@
 
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                 <defName>HRK_UkrainianDSHK</defName>
+                <statBases>
+                    <Mass>34</Mass>
+                    <Bulk>19.25</Bulk>
+                    <SwayFactor>3.52</SwayFactor>
+                    <ShotSpread>0.01</ShotSpread>
+                    <SightsEfficiency>0.80</SightsEfficiency>
+                    <RangedWeapon_Cooldown>0.58</RangedWeapon_Cooldown>
+                </statBases>
+                <Properties>
+                    <recoilAmount>2.51</recoilAmount>
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>True</hasStandardCommand>
+                    <defaultProjectile>Bullet_127x108mm_FMJ</defaultProjectile>
+                    <burstShotCount>6</burstShotCount>
+                    <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+                    <warmupTime>2.8</warmupTime>
+                    <range>56</range>
+                    <minRange>2</minRange>
+                    <soundCast>HRK_Shot_UkrainianDSHK</soundCast>
+                    <soundCastTail>GunTail_Heavy</soundCastTail>
+                    <muzzleFlashScale>12</muzzleFlashScale>
+                </Properties>
+                <AmmoUser>
+                    <magazineSize>50</magazineSize>
+                    <reloadTime>7.8</reloadTime>
+                    <ammoSet>AmmoSet_127x108mm</ammoSet>
+                </AmmoUser>
+                <FireModes>
+                    <aiAimMode>AimedShot</aiAimMode>
+                    <aiUseBurstMode>True</aiUseBurstMode>
+                    <aimedBurstShotCount>3</aimedBurstShotCount>
+                </FireModes>
+                <AllowWithRunAndGun>false</AllowWithRunAndGun>
+                <weaponTags>
+                    <li>Bipod_ATR</li>
+                </weaponTags>
+            </li>
+
+            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                <defName>HRK_HRK_RGSh30GL</defName>
                 <statBases>
                     <Mass>34</Mass>
                     <Bulk>19.25</Bulk>
