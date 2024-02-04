@@ -12,9 +12,9 @@
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>10</damageAmountBase>
-      <stoppingPower>0.24</stoppingPower>
-      <armorPenetrationBase>0.05</armorPenetrationBase>
-      <speed>55</speed>
+      <stoppingPower>0.5</stoppingPower>
+      <armorPenetrationBase>0.15</armorPenetrationBase>
+      <speed>60</speed>
     </projectile>
   </ThingDef>
 
@@ -36,20 +36,20 @@
       </recipeUsers>
       <researchPrerequisite>BlowbackOperation</researchPrerequisite>
       <skillRequirements>
-        <Crafting>2</Crafting>
+        <Crafting>4</Crafting>
       </skillRequirements>
     </recipeMaker>
     <statBases>
-      <WorkToMake>3500</WorkToMake>
-      <Mass>1</Mass>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>1.2</Mass>
       <AccuracyTouch>0.80</AccuracyTouch>
-      <AccuracyShort>0.80</AccuracyShort>
-      <AccuracyMedium>0.50</AccuracyMedium>
-      <AccuracyLong>0.40</AccuracyLong>
+      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.35</AccuracyLong>
       <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>20</Steel>
+      <Steel>30</Steel>
       <Chemfuel>5</Chemfuel>
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
@@ -58,8 +58,8 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>HRK_Bullet_Fort17Pistol</defaultProjectile>
-        <warmupTime>0.1</warmupTime>
-        <range>28</range>
+        <warmupTime>0.3</warmupTime>
+        <range>25</range>
         <soundCast>HRK_Shot_Fort17Pistol</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>3</muzzleFlashScale>
@@ -94,8 +94,7 @@
     </weaponTags>
   </ThingDef>
 
-  <!--=====
-  Vulcan (Classic) =====-->
+  <!--===== Vulcan (Classic) =====-->
   <ThingDef ParentName="BaseBullet">
     <defName>HRK_Bullet_Vulcan</defName>
     <label>Vulcan bullet</label>
@@ -106,7 +105,7 @@
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>11</damageAmountBase>
-      <stoppingPower>1</stoppingPower>
+      <stoppingPower>0.5</stoppingPower>
       <speed>70</speed>
     </projectile>
   </ThingDef>
@@ -181,8 +180,7 @@
     </weaponTags>
   </ThingDef>
 
-  <!--=====
-  Vulcan Malyuk (Gun Nut) =====-->
+  <!--===== Vulcan Malyuk (Gun Nut) =====-->
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_Vulcan_C</defName>
     <label>Vulcan Malyuk</label>
@@ -256,8 +254,7 @@
     </equippedStatOffsets>
   </ThingDef>
 
-  <!--=====
-  VulcanM (Classic) =====-->
+  <!--===== VulcanM (Classic) =====-->
   <ThingDef ParentName="BaseBullet">
     <defName>HRK_Bullet_VulcanM</defName>
     <label>VulcanM bullet</label>
@@ -344,8 +341,7 @@
     </weaponTags>
   </ThingDef>
 
-  <!--=====
-  VulcanM FLIR (Gun Nut) =====-->
+  <!--===== VulcanM FLIR (Gun Nut) =====-->
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_VulcanM_C</defName>
     <label>VulcanM FLIR</label>
@@ -419,8 +415,7 @@
     </equippedStatOffsets>
   </ThingDef>
 
-  <!--=====
-  SNIPEX Alligator =====-->
+  <!--===== SNIPEX Alligator =====-->
   <ThingDef ParentName="BaseBullet">
     <defName>HRK_Bullet_SNIPEXAlligator</defName>
     <label>SNIPEX Alligator AM bullet</label>
@@ -431,7 +426,7 @@
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>56</damageAmountBase>
-      <armorPenetrationBase>0.9</armorPenetrationBase>
+      <armorPenetrationBase>1</armorPenetrationBase>
       <stoppingPower>3</stoppingPower>
       <speed>70</speed>
     </projectile>
@@ -457,11 +452,11 @@
     </recipeMaker>
     <statBases>
       <WorkToMake>60000</WorkToMake>
-      <Mass>7</Mass>
+      <Mass>10</Mass>
       <AccuracyTouch>0.30</AccuracyTouch>
-      <AccuracyShort>0.45</AccuracyShort>
-      <AccuracyMedium>0.75</AccuracyMedium>
-      <AccuracyLong>0.92</AccuracyLong>
+      <AccuracyShort>0.50</AccuracyShort>
+      <AccuracyMedium>0.78</AccuracyMedium>
+      <AccuracyLong>0.95</AccuracyLong>
       <RangedWeapon_Cooldown>4.2</RangedWeapon_Cooldown>
     </statBases>
     <costList>
@@ -474,8 +469,8 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>HRK_Bullet_SNIPEXAlligator</defaultProjectile>
-        <warmupTime>0.05</warmupTime>
-        <range>43</range>
+        <warmupTime>5</warmupTime>
+        <range>45</range>
         <soundCast>HRK_Shot_SNIPEXAlligator</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -522,10 +517,10 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>14</damageAmountBase>
-      <speed>50</speed>
+      <damageAmountBase>16</damageAmountBase>
+      <speed>45</speed>
       <armorPenetrationBase>0.5</armorPenetrationBase>
-      <stoppingPower>1.5</stoppingPower>
+      <stoppingPower>3.0</stoppingPower>
     </projectile>
   </ThingDef>
 
@@ -547,21 +542,22 @@
       </recipeUsers>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
       <skillRequirements>
-        <Crafting>7</Crafting>
+        <Crafting>6</Crafting>
       </skillRequirements>
     </recipeMaker>
     <statBases>
-      <WorkToMake>42000</WorkToMake>
-      <Mass>8</Mass>
-      <AccuracyTouch>0.40</AccuracyTouch>
+      <WorkToMake>41000</WorkToMake>
+      <Mass>10</Mass>
+      <AccuracyTouch>0.35</AccuracyTouch>
       <AccuracyShort>0.50</AccuracyShort>
-      <AccuracyMedium>0.35</AccuracyMedium>
-      <AccuracyLong>0.25</AccuracyLong>
-      <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+      <AccuracyMedium>0.32</AccuracyMedium>
+      <AccuracyLong>0.22</AccuracyLong>
+      <RangedWeapon_Cooldown>2.6</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>75</Steel>
       <ComponentIndustrial>6</ComponentIndustrial>
+      <Chemfuel>25</Chemfuel>
     </costList>
     <verbs>
       <li>
@@ -569,9 +565,9 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>HRK_Bullet_UkranianDShK</defaultProjectile>
         <warmupTime>2.4</warmupTime>
-        <range>26</range>
+        <range>25.9</range>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-        <burstShotCount>5</burstShotCount>
+        <burstShotCount>6</burstShotCount>
         <soundCast>HRK_Shot_UkranianDShK</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>12</muzzleFlashScale>
@@ -608,7 +604,7 @@
     </equippedStatOffsets>
   </ThingDef>
 
-  <!-- ======================= [RGSh-30 GL] ========================== -->
+  <!-- ===== [RGSh-30 GL] ===== -->
   <ThingDef ParentName="BaseBullet">
     <defName>HRK_Bullet_RGSh30GL</defName>
     <label>RGSh-30 grenade</label>
@@ -704,7 +700,7 @@
     <weaponTags>
       <li>GunHeavy</li>
       <li>SimpleGun</li>
-    </weaponTags>    
+    </weaponTags>
   </ThingDef>
 
 </Defs>
