@@ -69,13 +69,13 @@
             <Operation Class="PatchOperationReplace">
                 <xpath>/Defs/ThingDef[defName="HRK_Vulcan"]/graphicData/texPath</xpath>
                 <value>
-                    <texPath>Things/Item/Equipment/WeaponRanged/HRK_Vulcan/{VulcanM_Camo}</texPath>
+                    <texPath>Things/Item/Equipment/WeaponRanged/HRK_VulcanM/{VulcanM_Camo}</texPath>
                 </value>
             </Operation>
             <Operation Class="PatchOperationReplace">
                 <xpath>/Defs/ThingDef[defName="HRK_Vulcan"]/uiIconPath</xpath>
                 <value>
-                    <uiIconPath>UI/Weapons/HRK_Vulcan/{VulcanM_Camo}</uiIconPath>
+                    <uiIconPath>UI/Weapons/HRK_VulcanM/{VulcanM_Camo}</uiIconPath>
                 </value>
             </Operation>
         </apply>

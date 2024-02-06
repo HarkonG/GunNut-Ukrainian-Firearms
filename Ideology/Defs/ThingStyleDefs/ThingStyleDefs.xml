@@ -53,53 +53,53 @@
 
 
     <ThingStyleDef>
-        <defName>HRK_VulkanM_BlackCamo</defName>
+        <defName>HRK_VulcanM_BlackCamo</defName>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/HRK_VulkanM/HRK_VulkanM_Black</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/HRK_VulcanM/HRK_VulcanM_Black</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <uiIconPath>UI/Weapons/HRK_VulkanM/HRK_VulkanM_Black</uiIconPath>
+        <uiIconPath>UI/Weapons/HRK_VulcanM/HRK_VulcanM_Black</uiIconPath>
     </ThingStyleDef>
     <ThingStyleDef>
-        <defName>HRK_VulkanM_TanCamo</defName>
+        <defName>HRK_VulcanM_TanCamo</defName>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/HRK_VulkanM/HRK_VulkanM_Tan</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/HRK_VulcanM/HRK_VulcanM_Tan</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <uiIconPath>UI/Weapons/HRK_VulkanM/HRK_VulkanM_Tan</uiIconPath>
+        <uiIconPath>UI/Weapons/HRK_VulcanM/HRK_VulcanM_Tan</uiIconPath>
     </ThingStyleDef>
     <ThingStyleDef>
-        <defName>HRK_VulkanM_WhiteCamo</defName>
+        <defName>HRK_VulcanM_WhiteCamo</defName>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/HRK_VulkanM/HRK_VulkanM_White</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/HRK_VulcanM/HRK_VulcanM_White</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <uiIconPath>UI/Weapons/HRK_VulkanM/HRK_VulkanM_White</uiIconPath>
+        <uiIconPath>UI/Weapons/HRK_VulcanM/HRK_VulcanM_White</uiIconPath>
     </ThingStyleDef>
 
     <ThingStyleDef>
-        <defName>HRK_VulkanM_C_BlackCamo</defName>
+        <defName>HRK_VulcanM_C_BlackCamo</defName>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/HRK_VulkanM_C/HRK_VulkanM_C_Black</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/HRK_VulcanM_C/HRK_VulcanM_C_Black</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <uiIconPath>UI/Weapons/HRK_VulkanM_C/HRK_VulkanM_C_Black</uiIconPath>
+        <uiIconPath>UI/Weapons/HRK_VulcanM_C/HRK_VulcanM_C_Black</uiIconPath>
     </ThingStyleDef>
     <ThingStyleDef>
-        <defName>HRK_VulkanM_C_TanCamo</defName>
+        <defName>HRK_VulcanM_C_TanCamo</defName>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/HRK_VulkanM_C/HRK_VulkanM_C_Tan</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/HRK_VulcanM_C/HRK_VulcanM_C_Tan</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <uiIconPath>UI/Weapons/HRK_VulkanM_C/HRK_VulkanM_C_Tan</uiIconPath>
+        <uiIconPath>UI/Weapons/HRK_VulcanM_C/HRK_VulcanM_C_Tan</uiIconPath>
     </ThingStyleDef>
     <ThingStyleDef>
-        <defName>HRK_VulkanM_C_WhiteCamo</defName>
+        <defName>HRK_VulcanM_C_WhiteCamo</defName>
         <graphicData>
-            <texPath>Things/Item/Equipment/WeaponRanged/HRK_VulkanM_C/HRK_VulkanM_C_White</texPath>
+            <texPath>Things/Item/Equipment/WeaponRanged/HRK_VulcanM_C/HRK_VulcanM_C_White</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <uiIconPath>UI/Weapons/HRK_VulkanM_C/HRK_VulkanM_C_White</uiIconPath>
+        <uiIconPath>UI/Weapons/HRK_VulcanM_C/HRK_VulcanM_C_White</uiIconPath>
     </ThingStyleDef>
 
     <ThingStyleDef>

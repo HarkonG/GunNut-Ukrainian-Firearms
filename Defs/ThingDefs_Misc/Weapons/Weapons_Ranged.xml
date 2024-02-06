@@ -23,7 +23,7 @@
     <label>Fort 17</label>
     <description>_</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/HRK_Fort17Pistol/HRK_Fort17Pistol_Black</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/HRK_Fort17Pistol</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.0</drawSize>
     </graphicData>
@@ -529,11 +529,11 @@
     <label>Hand-held DShK</label>
     <description>_</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/HRK_UkranianDShK/HRK_UkranianDShK_Black</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/HRK_UkranianDShK</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.25</drawSize>
     </graphicData>
-    <uiIconPath>UI/Weapons/HRK_UkranianDShK/HRK_UkranianDShK_Black</uiIconPath>
+    <uiIconPath>UI/Weapons/HRK_UkranianDShK</uiIconPath>
     <equippedAngleOffset>45</equippedAngleOffset>
     <soundInteract>HRK_Interact_SIGNGSW</soundInteract>
     <recipeMaker>
@@ -625,7 +625,7 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="HRK_RimAtWar_USA_BaseHumanMakeableGun">
+  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_RGSh30GL</defName>
     <label>RGSh-30 GL</label>
     <description>_</description>
