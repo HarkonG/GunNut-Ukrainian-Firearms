@@ -153,7 +153,7 @@
     </SoundDef>
 
     <SoundDef>
-        <defName>HRK_Shot_UkrainianDSHK</defName>
+        <defName>HRK_Shot_UkrainianDShK</defName>
         <context>MapOnly</context>
         <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
@@ -161,7 +161,7 @@
             <li>
                 <grains>
                     <li Class="AudioGrain_Clip">
-                        <clipPath>Weapons/HRK_Shot_UkrainianDSHK</clipPath>
+                        <clipPath>Weapons/HRK_Shot_UkrainianDShK</clipPath>
                     </li>
                 </grains>
                 <volumeRange>

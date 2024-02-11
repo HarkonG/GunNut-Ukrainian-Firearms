@@ -81,7 +81,7 @@
 
             <li Class="PatchOperationReplace">
                 <xpath>/Defs/ThingDef[
-                    defName = "HRK_UkrainianDSHK" or
+                    defName = "HRK_UkrainianDShK" or
                     defName = "HRK_SNIPEXAlligator" or
                     defName = "HRK_RGSh30GL"]/tools</xpath>
                 <value>
@@ -210,7 +210,7 @@
                     <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
                     <warmupTime>1</warmupTime>
                     <range>50</range>
-                    <soundCast>HRK_Shot_SD_Vulcan</soundCast>
+                    <soundCast>HRK_Shot_SDVulcan</soundCast>
                     <soundCastTail>GunTail_Medium</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
                     <recoilAmount>1.16</recoilAmount>
@@ -252,7 +252,7 @@
                     <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
                     <warmupTime>1.1</warmupTime>
                     <range>53</range>
-                    <soundCast>HRK_Shot_MVulcan</soundCast>
+                    <soundCast>HRK_Shot_VulcanM</soundCast>
                     <soundCastTail>GunTail_Medium</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
                     <recoilAmount>1.94</recoilAmount>
@@ -294,7 +294,7 @@
                     <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
                     <warmupTime>1.55</warmupTime>
                     <range>53</range>
-                    <soundCast>HRK_Shot_SD_MVulcan</soundCast>
+                    <soundCast>HRK_Shot_SDVulcanM</soundCast>
                     <soundCastTail>GunTail_Medium</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
                     <recoilAmount>1.72</recoilAmount>
@@ -354,23 +354,24 @@
                 </weaponTags>
             </li>
 
-            <!--===== HRK_Shot_UkrainianDSHK =====-->
+            <!--===== HRK_Shot_UkrainianDShK =====-->
             <!--<li Class="PatchOperationReplace">
-                <xpath>/Defs/ThingDef[defName ="HRK_UkrainianDSHK"]/verbs/li/verbClass</xpath>
+                <xpath>/Defs/ThingDef[defName ="HRK_UkrainianDShK"]/verbs/li/verbClass</xpath>
                 <value>
                     <verbClass>Verb_Shoot</verbClass>
                 </value>
-            </li>-->
+            </li>
 
             <li Class="PatchOperationReplace">
-                <xpath>/Defs/ThingDef[defName ="HRK_UkrainianDSHK"]/recipeMaker/researchPrerequisite</xpath>
+                <xpath>/Defs/ThingDef[defName ="HRK_UkrainianDShK"]/recipeMaker/researchPrerequisite</xpath>
                 <value>
                     <researchPrerequisite>CE_TurretHeavyWeapons</researchPrerequisite>
                 </value>
             </li>
+            </li>-->
 
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                <defName>HRK_UkrainianDSHK</defName>
+                <defName>HRK_UkrainianDShK</defName>
                 <statBases>
                     <Mass>34</Mass>
                     <Bulk>19.25</Bulk>
@@ -389,7 +390,7 @@
                     <warmupTime>1.3</warmupTime>
                     <range>75</range>
                     <minRange>2</minRange>
-                    <soundCast>HRK_Shot_UkrainianDSHK</soundCast>
+                    <soundCast>HRK_Shot_UkrainianDShK</soundCast>
                     <soundCastTail>GunTail_Heavy</soundCastTail>
                     <muzzleFlashScale>12</muzzleFlashScale>
                     <recoilAmount>1.52</recoilAmount>
@@ -428,7 +429,7 @@
                     <warmupTime>1.0</warmupTime>
                     <range>55</range>
                     <minRange>2</minRange>
-                    <soundCast>HRK_Shot_UkrainianDSHK</soundCast>
+                    <soundCast>HRK_Shot_RGSh30GL</soundCast>
                     <soundCastTail>GunTail_Heavy</soundCastTail>
                     <muzzleFlashScale>12</muzzleFlashScale>
                     <recoilAmount>3.05</recoilAmount>
