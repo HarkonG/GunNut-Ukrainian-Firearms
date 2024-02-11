@@ -122,7 +122,7 @@
                     <defaultProjectile>Bullet_9x18mmMakarov_FMJ</defaultProjectile>
                     <warmupTime>0.6</warmupTime>
                     <range>12</range>
-                    <soundCast>HRK_Shot_Fort17_Pistol</soundCast>
+                    <soundCast>HRK_Shot_Fort17Pistol</soundCast>
                     <soundCastTail>GunTail_Light</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
                     <recoilAmount>2.42</recoilAmount>
@@ -140,7 +140,6 @@
                     <li>CE_Sidearm</li>
                     <li>CE_OneHandedWeapon</li>
                 </weaponTags>
-                <researchPrerequisite>BlowbackOperation</researchPrerequisite>
             </li>
 
             <!--===== HRK_Vulcan =====-->
@@ -334,7 +333,7 @@
                     <defaultProjectile>Bullet_145x114mm_FMJ</defaultProjectile>
                     <warmupTime>4.2</warmupTime>
                     <range>89</range>
-                    <soundCast>HRK_Shot_SNIPEX_Alligator</soundCast>
+                    <soundCast>HRK_Shot_SNIPEXAlligator</soundCast>
                     <soundCastTail>GunTail_Heavy</soundCastTail>
                     <muzzleFlashScale>9</muzzleFlashScale>
                     <recoilAmount>2.21</recoilAmount>
@@ -409,10 +408,11 @@
                 <weaponTags>
                     <li>Bipod_ATR</li>
                 </weaponTags>
+                <researchPrerequisite>CE_TurretHeavyWeapons</researchPrerequisite>
             </li>
 
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                <defName>HRK_HRK_RGSh30GL</defName>
+                <defName>HRK_RGSh30GL</defName>
                 <statBases>
                     <Mass>10</Mass>
                     <Bulk>5.735</Bulk>
@@ -446,6 +446,7 @@
                 <weaponTags>
                     <li>CE_AI_AOE</li>
                 </weaponTags>
+                <researchPrerequisite>CE_Launchers</researchPrerequisite>
             </li>
 
         </operations>
