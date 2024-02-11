@@ -122,7 +122,7 @@
     <soundInteract>Interact_Rifle</soundInteract>
     <uiIconPath>UI/Weapons/HRK_Vulcan/HRK_Vulcan_Black</uiIconPath>
     <recipeMaker>
-      <researchPrerequisite>HRK_Research_Bullpup</researchPrerequisite>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
@@ -283,7 +283,7 @@
     <soundInteract>Interact_Rifle</soundInteract>
     <uiIconPath>UI/Weapons/HRK_VulcanM/HRK_VulcanM_Black</uiIconPath>
     <recipeMaker>
-      <researchPrerequisite>HRK_Research_Bullpup</researchPrerequisite>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
