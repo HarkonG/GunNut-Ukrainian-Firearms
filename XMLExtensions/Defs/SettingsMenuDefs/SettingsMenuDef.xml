@@ -46,7 +46,7 @@
 
                     <li Class="XmlExtensions.Setting.RadioButtons">
                         <key>Vulcan_Camo</key>
-                        <defaultValue>HRK_Vulcan_Tan</defaultValue>
+                        <defaultValue>HRK_Vulcan_Black</defaultValue>
                         <buttons>
                             <li>
                                 <value>HRK_Vulcan_Black</value>
@@ -77,7 +77,7 @@
 
                     <li Class="XmlExtensions.Setting.RadioButtons">
                         <key>Vulcan_C_Camo</key>
-                        <defaultValue>HRK_Vulcan_C_White</defaultValue>
+                        <defaultValue>HRK_Vulcan_C_Black</defaultValue>
                         <buttons>
                             <li>
                                 <value>HRK_Vulcan_C_Black</value>
@@ -108,7 +108,7 @@
 
                     <li Class="XmlExtensions.Setting.RadioButtons">
                         <key>SNIPEXAlligator_Camo</key>
-                        <defaultValue>HRK_SNIPEXAlligator_Tan</defaultValue>
+                        <defaultValue>HRK_SNIPEXAlligator_Black</defaultValue>
                         <buttons>
                             <li>
                                 <value>HRK_SNIPEXAlligator_Black</value>
