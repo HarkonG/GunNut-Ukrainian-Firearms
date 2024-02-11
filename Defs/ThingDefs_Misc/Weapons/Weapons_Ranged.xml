@@ -509,7 +509,7 @@
 
   <!--===== Hand-held DShK =====-->
   <ThingDef ParentName="BaseBullet">
-    <defName>HRK_Bullet_UkranianDShK</defName>
+    <defName>HRK_Bullet_UkrainianDShK</defName>
     <label>Hand-held DShK bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Big</texPath>
@@ -525,17 +525,17 @@
   </ThingDef>
 
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
-    <defName>HRK_UkranianDShK</defName>
+    <defName>HRK_UkrainianDShK</defName>
     <label>Hand-held DShK</label>
     <description>_</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/HRK_UkranianDShK</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/HRK_UkrainianDShK</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.25</drawSize>
     </graphicData>
-    <uiIconPath>UI/Weapons/HRK_UkranianDShK</uiIconPath>
+    <uiIconPath>UI/Weapons/HRK_UkrainianDShK</uiIconPath>
     <equippedAngleOffset>45</equippedAngleOffset>
-    <soundInteract>HRK_Interact_SIGNGSW</soundInteract>
+    <soundInteract>HRK_Interact_UkrainianDShK</soundInteract>
     <recipeMaker>
       <recipeUsers>
         <li>TableMachining</li>
@@ -563,12 +563,12 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>HRK_Bullet_UkranianDShK</defaultProjectile>
+        <defaultProjectile>HRK_Bullet_UkrainianDShK</defaultProjectile>
         <warmupTime>2.4</warmupTime>
         <range>25.9</range>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
         <burstShotCount>6</burstShotCount>
-        <soundCast>HRK_Shot_UkranianDShK</soundCast>
+        <soundCast>HRK_Shot_UkrainianDShK</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>12</muzzleFlashScale>
       </li>
@@ -634,9 +634,8 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>1.2</drawSize>
     </graphicData>
-    <!--<uiIconPath>UI/Weapons/HRK_RGSh30GL</uiIconPath>-->
-    <equippedAngleOffset>45</equippedAngleOffset>
-    <soundInteract>HRK_Interact_RGSh30GL</soundInteract>
+    <!--<uiIconPath>UI/Weapons/HRK_RGSh30GL</uiIconPath>-->    
+    <soundInteract>HRK_Interact_Rifle</soundInteract>
     <generateCommonality>0.3</generateCommonality>
     <statBases>
       <WorkToMake>13000</WorkToMake>
