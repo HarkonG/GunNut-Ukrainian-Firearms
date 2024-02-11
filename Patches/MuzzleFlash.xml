@@ -84,6 +84,19 @@
 					</value>
 				</li>
 
+				<li Class="SafePatcher.PatchOperationSetModExtension">
+					<xpath>Defs/ThingDef[defName="HRK_UkrainianDShK"]</xpath>
+					<value>
+						<li Class="MuzzleFlash.MuzzleFlashProps">
+							<def>MF_StandardMuzzleFalsh</def>
+							<drawSize>(1,1)</drawSize>
+							<offsets>
+								<li>(0.43,0.04)</li>
+							</offsets>
+						</li>
+					</value>
+				</li>
+
 			</operations>
 		</match>
 	</Operation>
