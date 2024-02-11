@@ -635,7 +635,7 @@
       <drawSize>1.2</drawSize>
     </graphicData>
     <!--<uiIconPath>UI/Weapons/HRK_RGSh30GL</uiIconPath>-->    
-    <soundInteract>HRK_Interact_Rifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <generateCommonality>0.3</generateCommonality>
     <statBases>
       <WorkToMake>13000</WorkToMake>
