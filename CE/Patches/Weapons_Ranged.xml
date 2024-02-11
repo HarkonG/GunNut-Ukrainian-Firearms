@@ -353,22 +353,7 @@
                 </weaponTags>
             </li>
 
-            <!--===== HRK_Shot_UkrainianDShK =====-->
-            <!--<li Class="PatchOperationReplace">
-                <xpath>/Defs/ThingDef[defName ="HRK_UkrainianDShK"]/verbs/li/verbClass</xpath>
-                <value>
-                    <verbClass>Verb_Shoot</verbClass>
-                </value>
-            </li>
-
-            <li Class="PatchOperationReplace">
-                <xpath>/Defs/ThingDef[defName ="HRK_UkrainianDShK"]/recipeMaker/researchPrerequisite</xpath>
-                <value>
-                    <researchPrerequisite>CE_TurretHeavyWeapons</researchPrerequisite>
-                </value>
-            </li>
-            </li>-->
-
+            <!--===== HRK_UkrainianDShK =====-->
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                 <defName>HRK_UkrainianDShK</defName>
                 <statBases>
