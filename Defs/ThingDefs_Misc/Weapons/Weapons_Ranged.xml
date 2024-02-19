@@ -28,8 +28,7 @@
       <drawSize>1.0</drawSize>
     </graphicData>
     <!--<uiIconPath>UI/Weapons/HRK_Fort17Pistol/HRK_Fort17Pistol_Black</uiIconPath>-->
-    <soundInteract>Interact_Autopistol</soundInteract>
-    <generateCommonality>0.05</generateCommonality>
+    <soundInteract>Interact_Autopistol</soundInteract>    
     <recipeMaker>
       <recipeUsers>
         <li>TableMachining</li>
