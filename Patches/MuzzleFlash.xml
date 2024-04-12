@@ -6,7 +6,7 @@
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
-				<li Class="SafePatcher.PatchOperationSetModExtension">
+				<li Class="PatchOperationAddModExtension">
 					<xpath>Defs/ThingDef[defName="HRK_Fort17Pistol"]</xpath>
 					<value>
 						<li Class="MuzzleFlash.MuzzleFlashProps">
@@ -19,7 +19,7 @@
 					</value>
 				</li>
 
-				<li Class="SafePatcher.PatchOperationSetModExtension">
+				<li Class="PatchOperationAddModExtension">
 					<xpath>Defs/ThingDef[defName="HRK_Vulcan"]</xpath>
 					<value>
 						<li Class="MuzzleFlash.MuzzleFlashProps">
@@ -32,7 +32,7 @@
 					</value>
 				</li>
 
-				<li Class="SafePatcher.PatchOperationSetModExtension">
+				<li Class="PatchOperationAddModExtension">
 					<xpath>Defs/ThingDef[defName="HRK_Vulcan_C"]</xpath>
 					<value>
 						<li Class="MuzzleFlash.MuzzleFlashProps">
@@ -45,7 +45,7 @@
 					</value>
 				</li>
 
-				<li Class="SafePatcher.PatchOperationSetModExtension">
+				<li Class="PatchOperationAddModExtension">
 					<xpath>Defs/ThingDef[defName="HRK_VulcanM"]</xpath>
 					<value>
 						<li Class="MuzzleFlash.MuzzleFlashProps">
@@ -58,7 +58,7 @@
 					</value>
 				</li>
 
-				<li Class="SafePatcher.PatchOperationSetModExtension">
+				<li Class="PatchOperationAddModExtension">
 					<xpath>Defs/ThingDef[defName="HRK_VulcanM_C"]</xpath>
 					<value>
 						<li Class="MuzzleFlash.MuzzleFlashProps">
@@ -71,7 +71,7 @@
 					</value>
 				</li>			
 				
-				<li Class="SafePatcher.PatchOperationSetModExtension">
+				<li Class="PatchOperationAddModExtension">
 					<xpath>Defs/ThingDef[defName="HRK_SNIPEXAlligator"]</xpath>
 					<value>
 						<li Class="MuzzleFlash.MuzzleFlashProps">
@@ -84,7 +84,7 @@
 					</value>
 				</li>
 
-				<li Class="SafePatcher.PatchOperationSetModExtension">
+				<li Class="PatchOperationAddModExtension">
 					<xpath>Defs/ThingDef[defName="HRK_UkrainianDShK"]</xpath>
 					<value>
 						<li Class="MuzzleFlash.MuzzleFlashProps">
