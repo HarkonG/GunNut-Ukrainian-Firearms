@@ -21,7 +21,7 @@
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_Fort17Pistol</defName>
     <label>Fort 17</label>
-    <description>_</description>
+    <description>The Fort-17 pistol, chambered in 9x18mm Makarov, is a compact and modern Ukrainian sidearm used by law enforcement. It’s reliable and easy to carry, though its firepower is modest compared to more powerful calibers. Still, it gets the job done in a pinch.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/HRK_Fort17Pistol</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -112,7 +112,7 @@
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_Vulcan</defName>
     <label>Vulcan</label>
-    <description>_</description>
+    <description>The Malyuk rifle chambered in 5.45x39mm is a modern Ukrainian bullpup assault rifle. Designed for reliability and ease of handling, it offers accurate mid-range fire in a compact and lightweight package. It’s a solid choice for general-purpose combat.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/HRK_Vulcan/HRK_Vulcan_Black</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -183,7 +183,7 @@
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_Vulcan_C</defName>
     <label>Vulcan Malyuk</label>
-    <description>_</description>
+    <description>A customized version of the Malyuk, also chambered in 5.45x39mm, features a red dot sight for fast target acquisition and a suppressor for stealth operations. Favored by light infantry and special forces, this rifle is built for speed, silence, and control in close to mid-range encounters.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/HRK_Vulcan_C/HRK_Vulcan_C_Black</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -273,7 +273,7 @@
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_VulcanM</defName>
     <label>VulcanM</label>
-    <description>_</description>
+    <description>Another variant of the Malyuk, this one chambered in 7.62x39mm, sacrifices a bit of control for raw stopping power. It retains the compact bullpup layout but delivers a heavier punch, making it better suited for those who value impact over finesse.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/HRK_VulcanM/HRK_VulcanM_Black</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -344,7 +344,7 @@
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_VulcanM_C</defName>
     <label>VulcanM FLIR</label>
-    <description>_</description>
+    <description>The Malyuk FLIR variant is a specialized modification of the 7.62x39mm model, equipped with a military-grade FLIR thermal scope and an integrated suppressor. Designed for night operations and stealthy engagements, it allows the user to detect heat signatures through fog, foliage, and darkness, making it ideal for ambushes or jungle warfare.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/HRK_VulcanM_C/HRK_VulcanM_C_Black</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -434,7 +434,7 @@
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_SNIPEXAlligator</defName>
     <label>SNIPEX Alligator</label>
-    <description>_</description>
+    <description>The Snipex Alligator is a Ukrainian anti-materiel rifle that fires massive 14.5x114mm rounds at extreme ranges. Fitted with a long-range optic, it can easily pierce light armor and damage structures, but its immense size and recoil limit its mobility. It's a weapon meant for destruction, not speed.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/HRK_SNIPEXAlligator/HRK_SNIPEXAlligator_Black</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -526,7 +526,7 @@
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_UkrainianDShK</defName>
     <label>Hand-held DShK</label>
-    <description>_</description>
+    <description>The modified DShK is a monstrous, makeshift adaptation of the Soviet-era heavy machine gun, reconfigured for handheld use. Somehow made portable, it unleashes devastating 12.7x108mm rounds with thunderous force. Extremely heavy and nearly uncontrollable in long bursts, it’s more of a walking death machine than a conventional support weapon.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/HRK_UkrainianDShK</texPath>
       <graphicClass>Graphic_Single</graphicClass>
