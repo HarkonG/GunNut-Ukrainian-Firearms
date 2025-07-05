@@ -3,10 +3,18 @@
         <li>/</li>
         <li>1.5</li>
         <li IfModActive="Ludeon.RimWorld.Ideology">Ideology</li>
-        <li IfModActive="Ludeon.RimWorld.Ideology_copy">Ideology</li>        
+        <li IfModActive="Ludeon.RimWorld.Ideology_copy">Ideology</li>
         <li IfModActive="imranfish.xmlextensions">XMLExtensions</li>
         <li IfModActive="imranfish.xmlextensions_copy">XMLExtensions</li>
         <li IfModActive="CETeam.CombatExtended">CE/1.5</li>
         <li IfModActive="CETeam.CombatExtended_copy">CE/1.5</li>
     </v1.5>
+    <v1.6>
+        <li>/</li>
+        <li>1.6</li>
+        <li IfModActive="Ludeon.RimWorld.Ideology">Ideology</li>
+        <li IfModActive="Ludeon.RimWorld.Ideology_copy">Ideology</li>
+        <li IfModActive="CETeam.CombatExtended">CE/1.6</li>
+        <li IfModActive="CETeam.CombatExtended_copy">CE/1.6</li>
+    </v1.6>
 </loadFolders>

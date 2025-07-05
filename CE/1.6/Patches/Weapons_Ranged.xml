@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+
+            <!--===== TOOLS FOR THE TOOL GOD =====-->
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ThingDef[defName = "HRK_Fort17Pistol"]/tools</xpath>
+                <value>
+                    <tools>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>grip</label>
+                            <capacities>
+                                <li>Blunt</li>
+                            </capacities>
+                            <power>2</power>
+                            <cooldownTime>1.54</cooldownTime>
+                            <chanceFactor>1.5</chanceFactor>
+                            <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+                            <linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
+                        </li>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>muzzle</label>
+                            <capacities>
+                                <li>Poke</li>
+                            </capacities>
+                            <power>2</power>
+                            <cooldownTime>1.54</cooldownTime>
+                            <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+                            <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+                        </li>
+                    </tools>
+                </value>
+            </li>
+
+            <li Class="PatchOperationReplace">
+                <xpath>
+				    /Defs/ThingDef[                    
+					defName = "HRK_Vulcan" or
+					defName = "HRK_Vulcan_C" or
+                    defName = "HRK_VulcanM" or
+					defName = "HRK_VulcanM_C"]/tools
+                </xpath>
+                <value>
+                    <tools>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>stock</label>
+                            <capacities>
+                                <li>Blunt</li>
+                            </capacities>
+                            <power>8</power>
+                            <cooldownTime>1.55</cooldownTime>
+                            <chanceFactor>1.5</chanceFactor>
+                            <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+                            <linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+                        </li>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>barrel</label>
+                            <capacities>
+                                <li>Blunt</li>
+                            </capacities>
+                            <power>5</power>
+                            <cooldownTime>2.02</cooldownTime>
+                            <armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+                            <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+                        </li>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>muzzle</label>
+                            <capacities>
+                                <li>Poke</li>
+                            </capacities>
+                            <power>8</power>
+                            <cooldownTime>1.55</cooldownTime>
+                            <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+                            <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+                        </li>
+                    </tools>
+                </value>
+            </li>
+
+            <li Class="PatchOperationReplace">
+                <xpath>/Defs/ThingDef[
+                    defName = "HRK_UkrainianDShK" or
+                    defName = "HRK_SNIPEXAlligator" or
+                    defName = "HRK_RGSh30GL"]/tools</xpath>
+                <value>
+                    <tools>
+                        <li Class="CombatExtended.ToolCE">
+                            <label>barrel</label>
+                            <capacities>
+                                <li>Blunt</li>
+                            </capacities>
+                            <power>10</power>
+                            <cooldownTime>2.44</cooldownTime>
+                            <armorPenetrationBlunt>3.5</armorPenetrationBlunt>
+                            <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+                        </li>
+                    </tools>
+                </value>
+            </li>
+
+            <!--===== HRK_Fort17_Pistol =====-->
+            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                <defName>HRK_Fort17Pistol</defName>
+                <statBases>
+                    <Mass>0.68</Mass>
+                    <RangedWeapon_Cooldown>0.38</RangedWeapon_Cooldown>
+                    <SightsEfficiency>0.70</SightsEfficiency>
+                    <ShotSpread>0.18</ShotSpread>
+                    <SwayFactor>0.83</SwayFactor>
+                    <Bulk>1.80</Bulk>
+                    <WorkToMake>7000</WorkToMake>
+                </statBases>
+                <costList>
+                    <Steel>25</Steel>
+                    <ComponentIndustrial>3</ComponentIndustrial>
+                </costList>
+                <Properties>
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>true</hasStandardCommand>
+                    <defaultProjectile>Bullet_9x18mmMakarov_FMJ</defaultProjectile>
+                    <warmupTime>0.6</warmupTime>
+                    <range>12</range>
+                    <soundCast>HRK_Shot_Fort17Pistol</soundCast>
+                    <soundCastTail>GunTail_Light</soundCastTail>
+                    <muzzleFlashScale>9</muzzleFlashScale>
+                    <recoilAmount>2.42</recoilAmount>
+                </Properties>
+                <AmmoUser>
+                    <magazineSize>13</magazineSize>
+                    <reloadTime>4</reloadTime>
+                    <ammoSet>AmmoSet_9x18mmMakarov</ammoSet>
+                </AmmoUser>
+                <FireModes>
+                    <aiUseBurstMode>FALSE</aiUseBurstMode>
+                    <aiAimMode>Snapshot</aiAimMode>
+                </FireModes>
+                <weaponTags>
+                    <li>CE_Sidearm</li>
+                    <li>CE_OneHandedWeapon</li>
+                </weaponTags>
+            </li>
+
+            <!--===== HRK_Vulcan =====-->
+            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                <defName>HRK_Vulcan</defName>
+                <statBases>
+                    <WorkToMake>36500</WorkToMake>
+                    <SightsEfficiency>1.00</SightsEfficiency>
+                    <ShotSpread>0.09</ShotSpread>
+                    <SwayFactor>1.09</SwayFactor>
+                    <Bulk>7.12</Bulk>
+                    <Mass>3.8</Mass>
+                    <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
+                </statBases>
+                <costList>
+                    <Steel>40</Steel>
+                    <ComponentIndustrial>6</ComponentIndustrial>
+                    <Chemfuel>10</Chemfuel>
+                </costList>
+                <Properties>
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>True</hasStandardCommand>
+                    <defaultProjectile>Bullet_545x39mmSoviet_FMJ</defaultProjectile>
+                    <burstShotCount>6</burstShotCount>
+                    <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+                    <warmupTime>1.1</warmupTime>
+                    <range>50</range>
+                    <soundCast>HRK_Shot_Vulcan</soundCast>
+                    <soundCastTail>GunTail_Medium</soundCastTail>
+                    <muzzleFlashScale>9</muzzleFlashScale>
+                    <recoilAmount>1.31</recoilAmount>
+                </Properties>
+                <AmmoUser>
+                    <magazineSize>30</magazineSize>
+                    <reloadTime>4.5</reloadTime>
+                    <ammoSet>AmmoSet_545x39mmSoviet</ammoSet>
+                </AmmoUser>
+                <FireModes>
+                    <aiAimMode>AimedShot</aiAimMode>
+                    <aiUseBurstMode>True</aiUseBurstMode>
+                    <aimedBurstShotCount>3</aimedBurstShotCount>
+                </FireModes>
+            </li>
+
+            <!--===== HRK_Vulcan_C =====-->
+            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                <defName>HRK_Vulcan_C</defName>
+                <statBases>
+                    <WorkToMake>40000</WorkToMake>
+                    <SightsEfficiency>1.1</SightsEfficiency>
+                    <ShotSpread>0.05</ShotSpread>
+                    <SwayFactor>1.39</SwayFactor>
+                    <Bulk>9.12</Bulk>
+                    <Mass>4.80</Mass>
+                    <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
+                </statBases>
+                <costList>
+                    <Steel>50</Steel>
+                    <ComponentIndustrial>7</ComponentIndustrial>
+                    <Chemfuel>10</Chemfuel>
+                </costList>
+                <Properties>
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>True</hasStandardCommand>
+                    <defaultProjectile>Bullet_545x39mmSoviet_FMJ</defaultProjectile>
+                    <burstShotCount>6</burstShotCount>
+                    <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+                    <warmupTime>1</warmupTime>
+                    <range>50</range>
+                    <soundCast>HRK_Shot_SDVulcan</soundCast>
+                    <soundCastTail>GunTail_Medium</soundCastTail>
+                    <muzzleFlashScale>9</muzzleFlashScale>
+                    <recoilAmount>1.16</recoilAmount>
+                </Properties>
+                <AmmoUser>
+                    <magazineSize>30</magazineSize>
+                    <reloadTime>4.5</reloadTime>
+                    <ammoSet>AmmoSet_545x39mmSoviet</ammoSet>
+                </AmmoUser>
+                <FireModes>
+                    <aiAimMode>AimedShot</aiAimMode>
+                    <aiUseBurstMode>True</aiUseBurstMode>
+                    <aimedBurstShotCount>3</aimedBurstShotCount>
+                </FireModes>
+            </li>
+
+            <!--===== HRK_VulcanM =====-->
+            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                <defName>HRK_VulcanM</defName>
+                <statBases>
+                    <WorkToMake>36500</WorkToMake>
+                    <SightsEfficiency>1.00</SightsEfficiency>
+                    <ShotSpread>0.09</ShotSpread>
+                    <SwayFactor>1.09</SwayFactor>
+                    <Bulk>7.12</Bulk>
+                    <Mass>3.80</Mass>
+                    <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
+                </statBases>
+                <costList>
+                    <Steel>40</Steel>
+                    <ComponentIndustrial>6</ComponentIndustrial>
+                    <Chemfuel>10</Chemfuel>
+                </costList>
+                <Properties>
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>True</hasStandardCommand>
+                    <defaultProjectile>Bullet_762x39mmSoviet_FMJ</defaultProjectile>
+                    <burstShotCount>6</burstShotCount>
+                    <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+                    <warmupTime>1.1</warmupTime>
+                    <range>53</range>
+                    <soundCast>HRK_Shot_VulcanM</soundCast>
+                    <soundCastTail>GunTail_Medium</soundCastTail>
+                    <muzzleFlashScale>9</muzzleFlashScale>
+                    <recoilAmount>1.94</recoilAmount>
+                </Properties>
+                <AmmoUser>
+                    <magazineSize>30</magazineSize>
+                    <reloadTime>4.5</reloadTime>
+                    <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
+                </AmmoUser>
+                <FireModes>
+                    <aiAimMode>AimedShot</aiAimMode>
+                    <aiUseBurstMode>True</aiUseBurstMode>
+                    <aimedBurstShotCount>3</aimedBurstShotCount>
+                </FireModes>
+            </li>
+
+            <!--===== HRK_VulcanM_C =====-->
+            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                <defName>HRK_VulcanM_C</defName>
+                <statBases>
+                    <WorkToMake>50000</WorkToMake>
+                    <SightsEfficiency>2.54</SightsEfficiency>
+                    <ShotSpread>0.05</ShotSpread>
+                    <SwayFactor>1.48</SwayFactor>
+                    <Bulk>9.12</Bulk>
+                    <Mass>4.80</Mass>
+                    <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
+                </statBases>
+                <costList>
+                    <Steel>50</Steel>
+                    <ComponentIndustrial>9</ComponentIndustrial>
+                    <Chemfuel>10</Chemfuel>
+                </costList>
+                <Properties>
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>True</hasStandardCommand>
+                    <defaultProjectile>Bullet_762x39mmSoviet_FMJ</defaultProjectile>
+                    <burstShotCount>6</burstShotCount>
+                    <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+                    <warmupTime>1.55</warmupTime>
+                    <range>53</range>
+                    <soundCast>HRK_Shot_SDVulcanM</soundCast>
+                    <soundCastTail>GunTail_Medium</soundCastTail>
+                    <muzzleFlashScale>9</muzzleFlashScale>
+                    <recoilAmount>1.72</recoilAmount>
+                </Properties>
+                <AmmoUser>
+                    <magazineSize>30</magazineSize>
+                    <reloadTime>4.5</reloadTime>
+                    <ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
+                </AmmoUser>
+                <FireModes>
+                    <aiAimMode>AimedShot</aiAimMode>
+                    <aiUseBurstMode>True</aiUseBurstMode>
+                    <aimedBurstShotCount>3</aimedBurstShotCount>
+                </FireModes>
+            </li>
+
+            <!--===== HRK_SNIPEXAlligator =====-->
+            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                <defName>HRK_SNIPEXAlligator</defName>
+                <statBases>
+                    <Bulk>21</Bulk>
+                    <Mass>25</Mass>
+                    <RangedWeapon_Cooldown>1.37</RangedWeapon_Cooldown>
+                    <SightsEfficiency>3.68</SightsEfficiency>
+                    <ShotSpread>0.01</ShotSpread>
+                    <SwayFactor>3.23</SwayFactor>
+                    <WorkToMake>52500</WorkToMake>
+                </statBases>
+                <costList>
+                    <Chemfuel>15</Chemfuel>
+                    <Steel>155</Steel>
+                    <ComponentIndustrial>6</ComponentIndustrial>
+                </costList>
+                <Properties>
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>true</hasStandardCommand>
+                    <defaultProjectile>Bullet_145x114mm_FMJ</defaultProjectile>
+                    <warmupTime>4.2</warmupTime>
+                    <range>89</range>
+                    <soundCast>HRK_Shot_SNIPEXAlligator</soundCast>
+                    <soundCastTail>GunTail_Heavy</soundCastTail>
+                    <muzzleFlashScale>9</muzzleFlashScale>
+                    <recoilAmount>2.21</recoilAmount>
+                </Properties>
+                <AmmoUser>
+                    <magazineSize>5</magazineSize>
+                    <reloadTime>4</reloadTime>
+                    <ammoSet>AmmoSet_145x114mm</ammoSet>
+                </AmmoUser>
+                <FireModes>
+                    <aiUseBurstMode>FALSE</aiUseBurstMode>
+                    <aiAimMode>AimedShot</aiAimMode>
+                </FireModes>
+                <AllowWithRunAndGun>false</AllowWithRunAndGun>
+                <weaponTags>
+                    <li>Bipod_ATR</li>
+                </weaponTags>
+            </li>
+
+            <!--===== HRK_UkrainianDShK =====-->
+            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                <defName>HRK_UkrainianDShK</defName>
+                <statBases>
+                    <Mass>34</Mass>
+                    <Bulk>19.25</Bulk>
+                    <SwayFactor>3.52</SwayFactor>
+                    <ShotSpread>0.01</ShotSpread>
+                    <SightsEfficiency>1</SightsEfficiency>
+                    <RangedWeapon_Cooldown>0.56</RangedWeapon_Cooldown>
+                    <WorkToMake>50000</WorkToMake>
+                </statBases>
+                <costList>
+                    <Steel>195</Steel>
+                    <ComponentIndustrial>6</ComponentIndustrial>
+                </costList>
+                <Properties>
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>True</hasStandardCommand>
+                    <defaultProjectile>Bullet_127x108mm_FMJ</defaultProjectile>
+                    <burstShotCount>10</burstShotCount>
+                    <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+                    <warmupTime>1.3</warmupTime>
+                    <range>79</range>
+                    <minRange>2</minRange>
+                    <soundCast>HRK_Shot_UkrainianDShK</soundCast>
+                    <soundCastTail>GunTail_Heavy</soundCastTail>
+                    <muzzleFlashScale>12</muzzleFlashScale>
+                    <recoilAmount>1.52</recoilAmount>
+                </Properties>
+                <AmmoUser>
+                    <magazineSize>50</magazineSize>
+                    <reloadTime>7.8</reloadTime>
+                    <ammoSet>AmmoSet_127x108mm</ammoSet>
+                </AmmoUser>
+                <FireModes>
+                    <aiAimMode>SuppressFire</aiAimMode>
+                    <aiUseBurstMode>FALSE</aiUseBurstMode>
+                    <aimedBurstShotCount>5</aimedBurstShotCount>
+                </FireModes>
+                <AllowWithRunAndGun>false</AllowWithRunAndGun>
+                <weaponTags>
+                    <li>Bipod_ATR</li>
+                </weaponTags>
+                <researchPrerequisite>CE_TurretHeavyWeapons</researchPrerequisite>
+            </li>
+
+            <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+                <defName>HRK_RGSh30GL</defName>
+                <statBases>
+                    <Mass>10</Mass>
+                    <Bulk>5.73</Bulk>
+                    <SwayFactor>1.57</SwayFactor>
+                    <ShotSpread>0.17</ShotSpread>
+                    <SightsEfficiency>1.10</SightsEfficiency>
+                    <RangedWeapon_Cooldown>0.40</RangedWeapon_Cooldown>
+                    <WorkToMake>28000</WorkToMake>
+                </statBases>
+                <costList>
+                    <Steel>70</Steel>
+                    <ComponentIndustrial>5</ComponentIndustrial>
+                </costList>
+                <Properties>                    
+                    <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                    <hasStandardCommand>True</hasStandardCommand>
+                    <defaultProjectile>Bullet_30x29mmGrenade_HE</defaultProjectile>
+                    <warmupTime>1.0</warmupTime>
+                    <range>55</range>
+                    <minRange>2</minRange>
+                    <soundCast>HRK_Shot_RGSh30GL</soundCast>
+                    <soundCastTail>GunTail_Heavy</soundCastTail>
+                    <muzzleFlashScale>12</muzzleFlashScale>
+                    <recoilAmount>3.05</recoilAmount>
+                    <targetParams>
+                        <canTargetLocations>true</canTargetLocations>
+                    </targetParams>
+                </Properties>
+                <AmmoUser>
+                    <magazineSize>5</magazineSize>
+                    <reloadTime>4.5</reloadTime>
+                    <ammoSet>AmmoSet_30x29mmGrenade</ammoSet>
+                </AmmoUser>
+                <FireModes>
+                    <aiAimMode>SuppressFire</aiAimMode>
+                    <aiUseBurstMode>FALSE</aiUseBurstMode>
+                </FireModes>
+                <weaponTags>
+                    <li>CE_AI_AOE</li>
+                </weaponTags>
+                <researchPrerequisite>CE_Launchers</researchPrerequisite>
+            </li>
+
+        </operations>
+    </Operation>
+</Patch>
