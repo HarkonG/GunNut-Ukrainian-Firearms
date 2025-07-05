@@ -370,7 +370,6 @@
                     <ComponentIndustrial>6</ComponentIndustrial>
                 </costList>
                 <Properties>
-                    <recoilAmount>2.51</recoilAmount>
                     <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                     <hasStandardCommand>True</hasStandardCommand>
                     <defaultProjectile>Bullet_127x108mm_FMJ</defaultProjectile>
@@ -416,8 +415,7 @@
                     <Steel>70</Steel>
                     <ComponentIndustrial>5</ComponentIndustrial>
                 </costList>
-                <Properties>
-                    <recoilAmount>2.51</recoilAmount>
+                <Properties>                    
                     <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                     <hasStandardCommand>True</hasStandardCommand>
                     <defaultProjectile>Bullet_30x29mmGrenade_HE</defaultProjectile>
